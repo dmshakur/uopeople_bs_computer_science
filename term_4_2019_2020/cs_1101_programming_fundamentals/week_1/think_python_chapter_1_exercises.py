@@ -11,6 +11,8 @@
 
 # print(string') # 1.1. 2 RESULT: SyntaxError: EOL while scanning string literal
 
+# print(string) # 1.1. 2 RESULT: SyntaxError: NameError: name 'string' is not defined
+
 # print(2++2) # 1.1. 3 RESULT: 4 # ++ is an increment operator the mathematical operation went on ignoring the second + it seems
 
 # print(03) # 1.1. 4 RESULT: SyntaxError: invalid token

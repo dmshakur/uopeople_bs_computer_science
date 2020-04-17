@@ -1,0 +1,124 @@
+0. Programming Fundamentals
+0. Online Education Strategies
+1. College Algebra
+1. Introduction to statistics
+    // 1. Analysis Of Algorithms
+    // 1. Programming I
+    // 2. Discrete Math
+    // 2. Programming II
+    // 2. Calculus
+    // 2. Statistical inference
+    // 3. Comparative Programming Languages
+    // 3. Data Mining & Machine Learning
+    // 3. Data Structures
+    // 3. Computer Systems
+    // 4. Artificial Intelligence
+    // 4. Software Engineering I
+    // 4. Communications & Networking
+    // 4. Databases I
+    // 5. Operating Systems I
+    // 5. Databases II
+    // 5. Software Engineering II
+    // 5. Advanced Networking & Security
+    // 6. Operating Systems II
+    // 6. Computer Graphics
+    // 6. Information Retrieval
+    // 6. Web Programming I
+    // 7. Web Programming II
+    // 7. Mobile Applications
+2. Calculus
+2. Statistical inference
+3. Programming I
+3. Discrete Mathematics
+4. Comparative Programming Languages // Requires Programming I & II
+4. Analysis Of Algorithms
+5. Programming II
+5. Data Mining & Machine Learning
+6. Artificial Intelligence
+6. Data Structures
+7. Computer Systems
+7. Communications and Networking
+8. Databases I
+8. Operating Systems I
+9. Databases II
+9. Operating Systems II
+10. Information Retrieval
+10. Software Engineering I
+11. Software Engineering II
+11. Advanced Networking & Data Security
+12. Computer Graphics
+12. Web Programming I
+13. Web Programming II
+13. Mobile Applications
+
+Courses I'm Considering:
+    World Literature
+    Introduction To Biology
+    Biology I
+    Biology II
+    Human Anatomy & Physiology
+    Infectious Disease
+    Nutrition
+    Genetics
+    Introduction To Psychology
+    Introduction To Philosophy
+    Introduction To Sociology
+    Introduction To Environmental Studies
+    Basic Accounting
+      Macroeconomics
+      Personal Finance
+        Greek & Roman Civilization
+        E-Commerce
+        Financial Accounting
+        Microeconomics
+        Principles Of Marketing
+19 Total
+
+3 Credits Per Course 28 Courses = 84 Credits
+Credits Needed To Graduate: 120
+Credits Needed: 36
+Classes Needed: 12 
+
+Taking 2 Classes Per Term:
+    Total Number Of Terms: 20
+    Total Number Of Comp. Sci. Terms: 14
+    Weeks Per Term: 9
+    Total Number Of Years For All Terms: 3.45
+    Total Number Of Weeks For All Terms: 180
+    Total Number Of Days For All Terms: 1260
+    Total Number Of Years For Comp. Sci. Terms: 2.41
+    Total Number Of Weeks For Comp. Sci. Terms: 126
+    Total Number Of Days For Comp. Sci. Terms: 882
+
+Taking 3 Classes Per Term:
+    Total Number Of Terms: 14 (Or 13 if I take 4 classes one term)
+    Total Number Of Comp. Sci. Terms: 10
+    Weeks Per Term: 9
+    Total Number Of Years For All Terms: 2.42
+    Total Number Of Weeks For All Terms: 126 (Or 119)
+    Total Number Of Days For All Terms: 882
+    Total Number Of Years For Comp. Sci. Terms: 1.72
+    Total Number Of Weeks For Comp. Sci. Terms: 90
+    Total Number Of Days For Comp. Sci. Terms: 630
+
+Taking 4 Classes Every Other Term & 3 The Rest:
+    Total Number Of Terms: 12
+    Total Number Of Comp. Sci. Terms: 8
+    Weeks Per Term: 9
+    Total Number Of Years For All Terms: 2.06
+    Total Number Of Weeks For All Terms: 108
+    Total Number Of Days For All Terms: 756
+    Total Number Of Years For Comp. Sci. Terms: 1.38
+    Total Number Of Weeks For Comp. Sci. Terms: 72
+    Total Number Of Days For Comp. Sci. Terms: 504
+
+Take 4 classes every term:
+    Total Number Of Terms: 11
+    Total Number Of Comp. Sci. Terms: 7
+    Weeks Per Term: 9
+    Total Number Of Years For All Terms: 1.89
+    Total Number Of Weeks For All Terms: 99 (Or 119)
+    Total Number Of Days For All Terms: 693
+    Total Number Of Years For Comp. Sci. Terms: 1.2
+    Total Number Of Weeks For Comp. Sci. Terms: 63
+    Total Number Of Days For Comp. Sci. Terms: 441

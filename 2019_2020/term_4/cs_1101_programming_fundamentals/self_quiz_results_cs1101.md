@@ -1,9 +1,12 @@
 # Self Quiz Results
 ## CS 1101
 
-#### Week 1
+#### Unit 1
 
 Tries: 1
 100%
 
-#### Week 2
+#### Unit 2
+
+Tries: 2
+100%

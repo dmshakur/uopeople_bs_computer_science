@@ -1,29 +1,35 @@
 0. Programming Fundamentals
 0. Online Education Strategies
-1. College Algebra
-1. Introduction to statistics
+    // 1. College Algebra
+    // 1. Introduction to statistics
     // 1. Analysis Of Algorithms
     // 1. Programming I
+
     // 2. Discrete Math
     // 2. Programming II
     // 2. Calculus
     // 2. Statistical inference
+
     // 3. Comparative Programming Languages
     // 3. Data Mining & Machine Learning
     // 3. Data Structures
     // 3. Computer Systems
+
     // 4. Artificial Intelligence
     // 4. Software Engineering I
     // 4. Communications & Networking
     // 4. Databases I
+
     // 5. Operating Systems I
     // 5. Databases II
     // 5. Software Engineering II
     // 5. Advanced Networking & Security
+
     // 6. Operating Systems II
     // 6. Computer Graphics
     // 6. Information Retrieval
     // 6. Web Programming I
+
     // 7. Web Programming II
     // 7. Mobile Applications
 2. Calculus
@@ -65,6 +71,7 @@ Courses I'm Considering:
     Introduction To Sociology
     Introduction To Environmental Studies
     Basic Accounting
+      Biostatistics
       Macroeconomics
       Personal Finance
         Greek & Roman Civilization

@@ -1,0 +1,514 @@
+/*whole site page content*/
+    .example{
+        padding: 25px 0px 25px 50px;
+        font-family: Georgia, Courier, serif;
+    }
+	
+	.subsection{/*alternative to the example class*/
+		margin-left: 25px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	/*left border for maincontent in every section*/
+	/*border-color is defined in the sectionproperties for each section of the site*/
+    /* .sidenav{ */
+    .maincontent{
+		border-left: 5px solid gray;
+		/*
+		border-color: #92e136; contact section
+		border-color: #f6cb1d; engagement section
+		border-color: #95008F; news section
+		border-color: #F38C16; owl and exercises section
+		border-color: #EE3A39; research section
+		border-color: #085C11; writing lab section
+		*/
+	}
+
+	.maincontent h1, .maincontent h2, .maincontent h3, .maincontent h4, .maincontent h5, .maincontent h6{
+		padding: 15px 0px;/*slight adjustment from styles.css*/
+	}
+
+	.maincontent p{
+		padding: 10px 0px;/*slight adjustment from styles.css*/
+	}
+	
+	.maincontent ol, .maincontent ul{/*same as above, except preserve default side paddings*/
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	.maincontent table{
+		margin: 10px 0px;/*for some reason the above padding rule doesn't work on tables*/
+	}
+
+    .table-responsive{
+        border: none !important;/*get rid of some seemingly unimportant bootstrap styling*/
+    }
+
+	.thumbnail{
+		margin-top: 20px;/*works in tandem with bootstrap defaults*/
+	}
+
+	/*fix to get bootstrap images and thumbnails to work right*/
+	/*sometimes an image on a page has the class itself, sometimes the container has the thumbnail class*/
+	/*img-thumbnail = class should be on img tag itself*/
+	/*thumbnail = class should be on container class*/
+	/*one or the other, not both*/
+	.img-responsive.thumbnail-fix, .img-thumbnail.thumbnail-fix, .thumbnail.thumbnail-fix img{
+		padding: 9px;/*balances image spacing in thumbnails with caption spacing*/
+		float: none !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-top: initial !important;
+		margin-bottom: initial !important;
+	}
+
+	.caption{
+		font-size: .75em;
+		text-align: center;
+	}
+	
+	.citation{
+		text-indent: -25px;
+		padding-left: 25px !important; /* so the citation doesn't overflow past its border */
+	}
+	
+	.indent1{
+		text-indent: 25px;
+	}
+	
+	.indent2{
+		text-indent: 50px;
+	}
+	
+	.example-paper, .samplepaper{
+		padding: 5em;
+		width: 100%;
+		max-width: 8.5in;/*standard page width*/
+		/* background-color: white; */
+		/* background-color: #FFFFCC; */ /*color taken from original OWL*/
+		background-color: #FEFFF2;
+		box-shadow: 0px 10px 6px -6px #777;
+		border: 1px solid #b7b7b7;
+		border-radius: 2px; /* make it look a little less digital */
+		/*min-height: 11in; /*at least standard page height (change or eliminate this if it causes ugly web pages)*/
+		font-family: "Times New Roman", Times, serif;
+	}
+    
+    /*this CSS is far from perfect, but this query here tries to make sure that example papers appear properly sized on smaller screens*/
+    @media screen and (max-width: 600px){
+        .example-paper, .samplepaper{
+            padding: 2em;
+        }
+        
+        .example-paper *, .samplepaper *{
+            font-size: .75em;
+            line-height: 1.42857143;
+        }
+    }
+	
+	/*flexbox is a convenient way to set up columns and stuff inside example papers*/
+	/*hooray for flexbox*/
+	.flexbox-row{
+		display: flex;
+	}
+	
+	.flexbox-cell{
+		flex: 1;
+		/* outline: 1px solid red; */
+	}
+	
+	.flexbox-gallery{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+	
+	.flexbox-item{
+		max-width: 50%;
+	}
+    
+    /*this specifically targets the summary boxes at the top of every page, because they look a bit too much like a warning*/
+    /*hidden indefinitely*/
+    .maincontent .alert.alert-warning{
+        display: none;
+        border: 2px solid #dedede;
+        background-color: white;
+        border-radius: 2px;
+    }
+    
+    /*prevent ad changing from making the whole page jitter*/
+    #top_ad{
+        min-height: 125px;
+        margin-top: 10px;/*adjust*/
+    }
+    #side_ad{
+        min-height: 285px;
+        min-width: 300px;
+    }
+
+    /*force font consistency*/
+    #side_ad, #top_ad{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+	
+	/* nah
+	*{
+		transition: all 1s;
+	}
+	*/
+/*************************/
+
+
+/*color styles*/
+	.blue{
+		font-weight: bold;
+		color: #3300CC;
+	}
+
+	.red{
+		font-weight: bold;
+		color: #ae0000;
+	}
+
+	.green{
+		font-weight: bold;
+		color: #2e5c00;
+	}
+
+	.orange{
+		font-weight: bold;
+		color: #7a4901;
+	}
+/**************/
+
+/*Top Logo Styling*/
+.top .row{
+    /*center things in the top row*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.top .logo-owl, .top .logo, .top .department{
+    margin: 0px !important;
+    padding: 15px;
+}
+.top .logo-owl{/*slight revision to above*/
+    padding: 0px;
+}
+.top .logo-owl img{
+    max-width: 85%;
+}
+
+/*.top .logo-owl a img, .top .logo a img {
+    display: block;*/
+    /*max-width: 180px;*/
+    /*max-height: 80px;
+    margin:0 auto !important;
+}*/
+
+@media screen and (max-width: 768px){ /*mobile only rules*/
+    .top .logo-owl a img, .top .logo a img {
+        /*width: initial;*/
+        width: 150px;
+    }
+    
+    .top .logo-owl, .top .logo{
+        padding: 5px;
+    }
+    
+    .top .department a, .top .tagline{
+        padding-bottom: 0px;
+    }
+    .tagline{
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 768px){ /*desktop only rules*/
+    
+    .maincontent{
+        max-width: calc(100% - 430px);/*for the sake of ads, 100% - min-width of side ad*/
+    }
+    
+    /*the gray bar only appears on non-mobile screen sizes*/
+    .top .logo::after{
+        /*defines the gray separator bar*/
+        display: block;
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 60%;
+        right: 0px;
+        top: 20%;
+        background-color: #999;
+    }
+}
+
+.top .department{
+    /*fighting styles.css to remove border*/
+    border-left: none;
+}
+
+.top .department a, .top .department .tagline{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;/*original*/
+    font-family: "Archivo Narrow", "Arial Narrow", "Arial", sans-serif;/*new, copied from marketing and media*/
+    letter-spacing: 0.015em;
+    font-size: 1.4375em;
+    font-weight: 600;
+    
+    /*fighting against styles.css*/
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.top .department .tagline{
+    text-transform: uppercase;
+}
+
+.top .department .school{
+    font-weight: 400;
+}
+
+/*due to disorganized CSS, this section will replicate Bootstrap*/
+/*this is bad, please fix styles.css*/
+/*.top .logo-owl[class*="col-sm-"] .{*/
+@media screen and (min-width: 768px){
+    /*smol*/
+    .top .department{
+        width: 50%;
+        /*outline: 1px solid green;*/
+    }
+}
+@media screen and (min-width: 992px){
+    /*med*/
+    .top .department{
+        width: 66%;
+        /*outline: 1px solid yellow;*/
+    }
+}
+@media screen and (min-width: 1200px){
+    /*large*/
+    .top .department{
+        width: 66%;
+        /*outline: 1px solid red;*/
+    }
+}
+/**************/
+
+/*sidenav styling*/
+
+    .sidenav{
+        /* don't allow the user to accidently select the text of the sidenav buttons */
+        -webkit-user-select: none; /* chrome */
+        -moz-user-select: none; /* firefox */
+        -ms-user-select: none; /* ie 10+ */
+        user-select: none;
+        text-transform: none;/* allow more control over capitalization of titles */
+    }
+    
+    .sidenav, .sidecontent{
+        min-width: 430px;/*resize sidenav for ads*/
+    }
+
+	.menu-item-opened{
+		/* font-weight: bold; */
+		text-shadow: 0px 0px 0px; /* using text-shadow instead of font-weight because it doesn't change the size of the element */
+		background-color: #eee; /* color for visibility */
+	}
+	
+	.sidenav-current-page{
+		/*font-style: italic; *//* italics for visibility */
+		border-left: 3px solid #555;
+		/*font-weight: bold !important;*/
+        text-shadow: 0px 0px 0px; /* using text-shadow instead of font-weight so it matches the look of menu-item-opened */
+		background-color: #eee !important; /* color for visibility, overwrite styles.css */
+	}
+
+	.caret{
+		transform: rotate(-90deg);
+		transition: transform 0.25s;
+	}
+	.pointDown{
+		transform: rotate(0deg);
+	}
+	/*#sidebar-navigation-selector li:hover{
+		background-color: rgb(242, 242, 242);
+	}*/
+	
+	/* for some reason, this is ommitted from formatting by styles.css, which means that some links are  */
+	.sidenav > ul a:link{
+		padding: 5px;
+		font-weight: 400;
+	}
+	
+	.sidenav > ul li.dropdown-submenu ul.dropdown-menu{
+		margin-top: 2px;/*makes the first item under a submenu visually consistent*/
+	}
+	
+	/* 1. side nav directories were links with href="#" that could be "opened" */
+	/* 2. i changed them from <a> to <span> */
+	/* 3. which messed up the styling from styles.css */
+	/* 4. this fixes that */
+	.sidenav .dropdown-toggle{
+		position: relative;
+		padding: 5px;
+		display: block;
+		line-height: 1.42857143;
+		white-space: initial;
+		text-decoration: none;
+		color: #555;
+		font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+		cursor: pointer;
+	}
+	.dropdown-toggle:hover{
+		text-decoration: underline;
+	}
+	
+	.sidenav > ul li{
+		border-bottom: none;/* cancel this rule from styles.css */
+	}
+	
+	.sidenav > ul > li:nth-child(2){
+		text-align: center;
+	}
+	
+	/* styling <a> and <span> in the 2nd <li> of the sidenav, because too many rules from styles.css were affecting the first-child to let us style it how we wanted */
+	.sidenav > ul > li:nth-child(2) > a, .sidenav > ul > li:nth-child(2) > span{
+		padding: 12px 0px;
+		color: white;
+		background-color: #444 !important;
+		font-weight: bold;
+		border: none;
+	}
+	
+	/* duplicating a setting from styles.css for spans */
+	.sidenav > ul > li:nth-child(2) > span{
+		/* padding: 12px 0px; */
+	}
+	
+	/* gives some visual guidance to see what level the menu is at */
+	/*.dropdown-submenu{
+		border-left: 1px solid #ccc !important;
+	}*/
+/*****************/
+
+/*Side Content Styling for Writing Lab Scheduling Info*/
+.schedule {
+    border-top: 3px solid #085C11;
+    border-bottom: 3px solid #085C11;
+}
+
+
+/*****************/
+
+/*Print styling */
+    .printinfo{
+        display:none;
+    }
+    .printarea {
+        clear:both;
+    }
+
+    @media print {
+    .printinfo,.printarea{
+        display: block;
+        width: 100% !important;
+        }
+	.top,.navbar,.breadcrumb,.footer,.bottom,.sidenav,.sidecontent,.banner-image-hero,.top_ad {
+	    display:none;
+    	}
+     .right {
+        float:none;
+	    }
+    }
+
+/*****************/
+
+/*news section*/
+	.bio{
+		/* font-size: 10 px; */
+		color: #4f4e4e;
+		font-style: italic;
+	}
+/**************/
+
+
+/*newsletter*/
+	#weekly-writer-title{
+		display: flex;
+		align-items: center;
+	}
+
+	#weekly-writer-title h1{
+		margin-left: .5em;
+	}
+
+	#hours-of-operation{
+		color: black;
+	}
+
+	#hours-of-operation p{
+		padding: 0px 0px 0px 0px;
+	}
+/************/
+/*FOOTER*/
+
+.owl_footer {
+    /*line-height:1.5em !important;*/
+}
+
+.icon-img {
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.img-soc,
+.imgsoc {
+    font-size: 20px;
+    margin: 5px 7px;
+    display: inline-block;
+
+}
+
+.socialmedia {
+    color: #999 !important;
+}
+.socialmedia:hover {
+    color: #C28E0E !important;
+}
+
+@media(min-width: 1029px) {
+    
+    .owl-content {
+    width:75%;
+}
+}
+/************/
+
+.footer .motto img {
+    max-width: 200px !important;
+    margin:10px auto !important;
+}
+
+.breadcrumb {
+    margin-bottom:5px;   
+}
+
+/*debug*/
+/*
+
+	h1{
+		color: green;
+	}
+
+	*{
+		outline: 1px solid red !important;
+	}
+
+*/
+/*******/

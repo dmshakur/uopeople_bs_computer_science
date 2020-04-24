@@ -1,0 +1,140 @@
+(() => {
+    var CM_sources = [
+        { url: "cite-a-website", label: "Website"},
+        { url: "cite-a-book", label: "Book"},
+        { url: "cite-a-journal", label: "Journal article"},
+        { url: "cite-a-film", label: "Online video / film"}
+    ];
+
+    var websitePlaceholder = 'Search by URL, title, or keyword';
+    var bookPlaceholder = 'Search a book by title, author, or ISBN';
+    var journalPlaceholder = 'Search a scholarly journal article by title';
+    var filmPlaceholder = 'Search by online video URL or film title';
+
+    function CMSubmitForm() {
+        document.getElementById('CM_form').action = "https://www.citationmachine.net/" +
+        document.getElementById('CM_style').value + '/' +
+        document.getElementById('CM_source').value + '/search';
+    }
+    window.CMSubmitForm = CMSubmitForm;
+
+    function CMPlaceWidget(content) {
+        var p1Element = $('.printarea > p:eq(0)');
+        var p1Position = p1Element.position();
+
+        var p2Element = $('.printarea > p:eq(1)');
+        if (p2Element.length < 1) {
+            p1Element.after(content);
+            return;
+        }
+
+        var p2Position = p2Element.position();
+        var ratio = p2Position.top / p1Position.top;
+        if (ratio > 2) {
+            p1Element.after(content);
+        } else {
+            p2Element.after(content);
+        }
+    }
+
+    //books filter
+    if (document.URL.indexOf('books') >= 0) {
+        var CM_button_value = 'Cite book';
+        var CM_headline = 'Cite a book automatically';
+        var CM_placeholder = bookPlaceholder;
+    } else {
+        var CM_button_value = 'Cite';
+        var CM_headline = 'Cite your source automatically';
+        var CM_placeholder = websitePlaceholder;
+    }
+
+    var CM_style = 'none';
+
+    if (document.URL.indexOf('apa_style') >= 0 ) {
+        CM_style = 'apa';
+        CM_headline += ' in APA';
+    } else if (document.URL.indexOf('chicago_manual_17th_edition') >= 0) {
+        CM_style = 'chicago';
+        CM_headline += ' in Chicago style';
+    } else if (document.URL.indexOf('ama_style') >= 0) {
+        CM_style = 'ama';
+        CM_headline += ' in AMA';
+    } else if (document.URL.indexOf('mla_style') >= 0) {
+        CM_style = 'mla';
+        CM_headline += ' in MLA';
+    } else {
+        CM_style = 'mla';
+        CM_headline += ' in MLA or APA format';
+		}
+
+    if (typeof jQuery !== 'undefined' && CM_style !== 'none') {
+        if (document.URL.indexOf('books') >= 0) {
+            var cm_widget_select = '<input type="hidden" id="CM_source" value="cite-a-book"><div class="col-md-9" style="padding: 0px 5px;">';
+        } else {
+            var cm_widget_select = '<div class="col-md-3" style="padding: 0px 5px;"><select class="form-control input-lg" aria-label="source type" style="margin-top:5px; border-radius: 0px;width:100%;" id="CM_source">';
+            for (i in CM_sources) {
+                cm_widget_select += '<option value="'+CM_sources[i].url+'">'+CM_sources[i].label+'</option>';
+            }
+            cm_widget_select += '</select></div><div class="col-md-6" style="padding: 0px 5px;">';
+        }
+
+        var cm_widget_html =
+            '<style type="text/css"> .btn-cite:hover,.btn-cite:focus,.btn-cite:active { background-color: #AC6A34 !important;border-color: #AC6A34 !important; } .cm_widget_footer_right { text-align: right; } @media (max-width: 767px) { .CM_widget_footer {text-align:center;} .CM_widget_footer img {display: inline !important;}.cm_widget_footer_right { text-align: center ; } }</style>' +
+            '<div class="CM-widget-container">' +
+                '<div class="container-fluid" style="background-color: #f4f3eb; padding-bottom: 20px; border-bottom: 4px solid #bf1905">' +
+                    '<div class="row">' +
+                        '<div class="col-md-12">' +
+                            '<h3 style="color:black;">'+CM_headline+'</h3>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div class="row" style="margin-right:0;margin-left:0;">' +
+                        '<form class="form-inline" target="_blank" id="CM_form" action="" onsubmit="CMSubmitForm()">' +
+                        cm_widget_select +
+                        '<input type="text" class="form-control input-lg" id="cite_field" name="q" aria-label="cite source by title, url, isbn, or keyword" placeholder="'+CM_placeholder+'" style="width:100%; border-radius: 0px; margin-top: 5px;">' +
+                        '<input type="hidden" name="style" id="CM_style" value="'+CM_style+'">' +
+                    '</div>' +
+                    '<div class="col-md-3" style="padding: 0px 5px;">' +
+                        '<input type="hidden" name="utm_source" value="TEST_UTM">' +
+                        '<button disabled type="submit" class="btn btn-lg btn-default btn-cite" style="background-color: #d78541; width: 100%; margin-top:5px; border-color: #d78541; color: #fff;">' +
+                        CM_button_value +
+                        '</button>' +
+                    '</div>' +
+                    '</form>' +
+                '</div>' +
+                '</div>' +
+                '<div class="container-fluid">' +
+                    '<div class="row CM_widget_footer" style="padding:10px 10px 0px 10px; border: 1px solid #efefef; margin-bottom: 10px;">' +
+                        '<div class="col-md-6">' +
+                            '<a target="_blank" href="https://owl.purdue.edu/owl/research_and_citation/using_citation_machines_responsibly.html" style="font-size:0.8em; color: #4e97d3; font-weight: normal; text-decoration: none;">' +
+                            'Using citation machines responsibly' +
+                            '</a>' +
+                        '</div>' +
+                        '<div class="col-md-6 cm_widget_footer_right">' +
+                            '<small>Powered by </small>' +
+                            '<img style="margin: 0px 0px 10px 5px;" src="https://atc.studybreakmedia.com/modules/citation-widget/images/cm_plus.png" alt="Powered by CitationMachine.net" width="150" />' +
+                        '</div>' +
+                    '</div>' +
+                '</div>' +
+            '</div>';
+
+        CMPlaceWidget(cm_widget_html.replace('TEST_UTM', 'owl-text'));
+
+        $('#CM_source').on('change', function() {
+            var placeholders = [
+                websitePlaceholder,
+                bookPlaceholder,
+                journalPlaceholder,
+                filmPlaceholder
+            ];
+            $('#cite_field').attr('placeholder', placeholders[document.getElementById("CM_source").selectedIndex]);
+        })
+
+        $('#cite_field').on('keyup focusout', function() {
+            if ($(this).val().length > 0) {
+                $('.btn-cite').prop('disabled', false);
+            } else {
+                $('.btn-cite').prop('disabled', true);
+            }
+        })
+    }
+})()

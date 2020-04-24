@@ -1,0 +1,3024 @@
+@font-face {
+    font-family: "archivoNarrow";
+    src: url("https://purdue.edu/purdue/fonts/archivonarrow-regular-webfont.eot");
+    src: url("https://purdue.edu/purdue/fonts/archivonarrow-regular-webfont.eot?#iefix") format("embedded-opentype"), url("https://purdue.edu/purdue/fonts/archivonarrow-regular-webfont.woff2") format("woff2"), url("https://purdue.edu/purdue/fonts/archivonarrow-regular-webfont.woff") format("woff"), url("https://purdue.edu/purdue/fonts/archivonarrow-regular-webfont.ttf") format("truetype"), url("https://purdue.edu/purdue/fonts/archivonarrow-regular-webfont.svg#archivoNarrow_regular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "archivoNarrow";
+    src: url("https://purdue.edu/purdue/fonts/archivonarrow-bold-webfont.eot");
+    src: url("https://purdue.edu/purdue/fonts/archivonarrow-bold-webfont.eot?#iefix") format("embedded-opentype"), url("https://purdue.edu/purdue/fonts/archivonarrow-bold-webfont.woff2") format("woff"), url("https://purdue.edu/purdue/fonts/archivonarrow-bold-webfont.woff") format("woff"), url("https://purdue.edu/purdue/fonts/archivonarrow-bold-webfont.ttf") format("truetype"), url("https://purdue.edu/purdue/fonts/archivonarrow-bold-webfont.svg#archivoNarrow_bold") format("svg");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "archivoNarrow";
+    src: url("https://purdue.edu/purdue/fonts/archivonarrow-italic-webfont.eot");
+    src: url("https://purdue.edu/purdue/fonts/archivonarrow-italic-webfont.woff2") format("woff"), url("https://purdue.edu/purdue/fonts/archivonarrow-italic-webfont.woff") format("woff"), url("https://purdue.edu/purdue/fonts/archivonarrow-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/archivonarrow-italic-webfont.ttf") format("truetype"), url("https://purdue.edu/purdue/fonts/archivonarrow-italic-webfont.svg#archivoNarrow_italic") format("svg");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "archivoNarrow";
+    src: url("https://purdue.edu/purdue/fonts/archivonarrow-bolditalic-webfont.eot");
+    src: url("https://purdue.edu/purdue/fonts/archivonarrow-bolditalic-webfont.woff2") format("woff"), url("https://purdue.edu/purdue/fonts/archivonarrow-bolditalic-webfont.woff") format("woff"), url("https://purdue.edu/purdue/fonts/archivonarrow-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("https://purdue.edu/purdue/fonts/archivonarrow-bolditalic-webfont.ttf") format("truetype"), url("https://purdue.edu/purdue/fonts/archivonarrow-bolditalic-webfont.svg#archivoNarrow_boldItalic") format("svg");
+    font-weight: bold;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "archivo_blackregular";
+    src: url("https://purdue.edu/purdue/fonts/archivoblack-webfont.eot");
+    src: url("https://purdue.edu/purdue/fonts/archivoblack-webfont.woff") format("woff"), url("https://purdue.edu/purdue/fonts/archivoblack-webfont.woff2") format("woff2"), url("https://purdue.edu/purdue/fonts/archivoblack-webfont.eot?#iefix") format("embedded-opentype"), url("https://purdue.edu/purdue/fonts/archivoblack-webfont.ttf") format("truetype"), url("https://purdue.edu/purdue/fonts/archivoblack-webfont.svg#archivo_blackregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+html {
+    background-color: #3b3b3b;
+    font-size: 100%
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+}
+
+@media (min-width: 768px) {
+    body {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1em;
+        line-height: 1.5em
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 1.125em;
+        line-height: 1.33333em
+    }
+}
+
+h1 {
+    padding-top: 0;
+    padding-bottom: 0.25em;
+    font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #98700d;
+    font-size: 2.25em;
+    line-height: 1.1em
+}
+
+h2 {
+    /*padding-top: 1em;*/
+    padding-bottom: 0.15em;
+    font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #98700d;
+    font-size: 2em;
+    line-height: 1.2em
+}
+
+h3 {
+    /*padding-top: 1em;*/
+    font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #98700d;
+    font-size: 1.75em;
+    line-height: 1.2em
+}
+
+h4 {
+    /*padding-top: 1em;*/
+    font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.2em
+}
+
+h5 {
+    /*padding-top: 1.5em;*/
+    font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    line-height: 1.2em;
+    text-transform: uppercase
+}
+
+h6 {
+    /*padding-top: 2em;*/
+    font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.2em;
+    text-transform: uppercase
+}
+
+h1 a:link,
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h5 a:link,
+h6 a:link {
+    color: inherit;
+    font-weight: inherit
+}
+
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+    color: inherit;
+    font-weight: inherit
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    color: inherit;
+    font-weight: inherit
+}
+
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active {
+    color: inherit;
+    font-weight: inherit
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+/*h1+h3 {
+    padding-top: 0
+}
+
+h3+h6,
+h4+h6 {
+    padding-top: 1em
+}
+
+h4+h5,
+h5+h6 {
+    padding-top: 0.75em
+}
+
+h2+h6,
+h3+h5,
+h3+h4 {
+    padding-top: 0.5em
+}
+
+h1+h4,
+h1+h5,
+h1+h6,
+h2+h3,
+h2+h4,
+h2+h5 {
+    padding-top: 0.25em
+}
+
+h1+h2 {
+    padding-top: 0.15em
+}
+*/
+p {
+    margin: 0;
+    padding: 7.5px 0
+}
+.fthcolor{color:#C28E0E;}
+small {
+    font-size: 0.75em;
+    line-height: 1em
+}
+
+big {
+    font-size: 1.25em;
+    line-height: 1em
+}
+
+a:link {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline
+}
+
+a:visited {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline
+}
+
+a:hover {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none
+}
+
+a:active {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline
+}
+
+ul,
+ol {
+    padding: 10px 0 10px 35px
+}
+
+ul {
+    list-style-type: disc
+}
+
+ul ul {
+    padding-top: 0;
+    padding-bottom: 0;
+    list-style-type: circle
+}
+
+ul ul ul {
+    list-style-type: square
+}
+
+ol {
+    list-style-type: decimal
+}
+
+strong,
+b {
+    font-weight: 700
+}
+
+i,
+em {
+    font-style: italic
+}
+
+u {
+    text-decoration: underline
+}
+
+.right {
+    float: right
+}
+
+.left {
+    float: left
+}
+
+.transition {
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+    -ms-transition-duration: .3s
+}
+.navbar {
+    margin-bottom:0px;
+	border-radius:0px;
+	min-height:inherit;
+}
+.navbar .container {
+	padding:0px;
+}
+.navbar-nav {
+	margin:0px !important;
+	padding:0;
+}
+.navbar-nav li a{
+	text-decoration:none;
+	font-weight:300;
+}
+.navbar-nav li a:hover{
+	text-decoration:none;
+	font-weight:300;
+}
+.navbar-nav li a:visited{
+	text-decoration:none;
+	font-weight:300;
+}
+.navbar-collapse {
+	border:0px;
+	box-shadow:none;
+	padding:0px;
+}
+.navbar-toggle {
+	float:left;
+	margin-left:15px;
+	border:0px;
+}
+#mainnav{
+	font-size:14px;	
+}
+.goldbar {
+	background-color:#c28e0e;
+	color:#000;
+	/*text-transform:uppercase;*/
+	font-size:14px;
+	border:0px;
+	box-shadow: 0px 2px 10px #1e1e1e;
+}
+.goldbar .dropdown-menu {
+	border-radius:0px;
+}
+.goldbar .navbar-nav > li > a {
+	color:#000;
+	padding:5px 15px;
+}
+.goldbar .navbar-nav > li > a:hover {
+	text-decoration: underline !important;
+    color: #000;
+}
+.goldbar .navbar-nav > li > a .fa-search {
+    line-height:20px;
+}
+.goldbar .navbar-nav.information > li > a, 
+.goldbar .navbar-nav.quicklinks > li > a {
+	
+}
+.goldbar.navbar-inverse .navbar-nav.information > .open > a,
+.goldbar.navbar-inverse .navbar-nav.information > .open > a:hover,
+.goldbar.navbar-inverse .navbar-nav.information > .open > a:focus {
+	background-color:transparent;
+	color:#000;
+}
+.goldbar .navbar-toggle:hover,
+.goldbar .navbar-toggle:focus,
+.goldbar .navbar-toggle:hover  {
+	background-color:transparent;
+}
+.goldbar .navbar-toggle:hover .icon-bar,
+.goldbar .navbar-toggle:focus .icon-bar,
+.goldbar .navbar-toggle:active .icon-bar {
+	background-color:#c28e0e;
+    color:#000;
+}
+.goldbar .navbar-nav > .information.open > a,
+.goldbar .navbar-nav > .information.open > a:hover,
+.goldbar .navbar-nav > .information.open > a:focus,
+.goldbar .navbar-nav > .quicklinks.open > a,
+.goldbar .navbar-nav > .quicklinks.open > a:hover,
+.goldbar .navbar-nav > .quicklinks.open > a:focus {
+	background-color:transparent;
+}
+
+.goldbar .information .dropdown-menu,
+.goldbar .quicklinks .dropdown-menu {
+	background-color: #c28e0e;
+	border:0px;
+	box-shadow:none;
+}
+.goldbar .information .dropdown-menu > li > a,
+.goldbar .quicklinks .dropdown-menu > li > a {
+	font-size:14px;
+	color:#000;
+	text-transform:none;
+}
+.goldbar .information .dropdown-menu > li > a:hover,
+.goldbar .quicklinks .dropdown-menu > li > a:hover {
+	text-decoration: underline !important;
+	background-color:transparent;
+}
+.goldbar .quicklinks li a {
+	margin:5px 10px;
+	padding:0px;
+}
+.goldbar .quicklinks li a:nth-child(0) {
+	border:0px;
+}
+.goldbar .search .dropdown-menu {
+	/*background-color:#000;*/
+    background-color:#c28e0e;
+	padding:0px;
+	border:0px;
+}
+
+.goldbar .dropdown-toggle{
+    background-color:#c28e0e !important;   
+    color:#000 !important;
+}
+
+.goldbar .search .form-group {
+	background-color:#c28e0e;
+	float:right;
+	margin-bottom:0px;
+}
+.goldbar .search .form-control, 
+.goldbar .search .btn {
+	border:0px;
+	border-radius:0px;
+	box-shadow:none;
+	background-color:transparent;
+	display:inline-block;
+	height:35px;
+}
+.goldbar .search .form-control,
+.cse input.gsc-input,
+input.gsc-input {
+	color:#000;
+	width:200px !important;
+    border: 0px;
+}
+.goldbar .search .btn {
+	color:#fff;
+	font-size:12px;
+	padding:3px 8px;
+}
+.goldbar .search .btn:hover {
+	color:#c5960b;
+}
+.goldbar .search .btn i {
+	display: block;
+}
+.goldbar .search .form-group .gsc-search-button,
+.goldbar .search .form-group .gsc-clear-button {
+    display:none;
+}
+.cse form.gsc-search-box, form.gsc-search-box {
+    padding:7px !important;
+    margin:0px !important;
+}
+.cse table.gsc-search-box td.gsc-input,
+table.gsc-search-box td.gsc-input {
+    padding:0px !important;
+}
+
+.top {
+	background-image: url('https://cla.purdue.edu/_template/images/stripes-tile.png');
+	background-color: #000;
+    background-repeat:repeat;
+    
+	/*height:105px;*/
+}
+.top .logo {
+	margin:25px 0px;
+}
+@media (max-width:767px){
+ .top .logo{
+     margin-bottom:15px;
+ }   
+}
+.top .logo a,
+.top .logo a img {
+	width:100%;
+	display:block;
+}
+.top .department {
+	width:inherit
+}
+.top .department a,.top .department a:visited,
+.top .department .tagline {
+    color:#fff;
+	font-weight: 100;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-left:10px;
+	padding-right:10px;
+	text-decoration:none;
+	letter-spacing:1px;
+	/*border-left:1px solid #c28e0e;*/
+	display: block;
+}
+.top .department .tagline {
+	font-size:.8em;
+} 
+.top .department .tagline a {
+	font-size:inherit;
+	color:#fff; 
+	text-decoration:none;
+	border: 0px;
+	/*padding: 0px;*/
+}
+.department .tagline a.school{
+    font-size:16px;
+}
+.blackbar {
+	background-color:#000000;
+	border:0px;
+}
+.blackbar .navbar-toggle:hover,
+.blackbar .navbar-toggle:focus,
+.blackbar .navbar-toggle:hover  {
+	background-color:transparent;
+}
+.blackbar .navbar-toggle:hover .icon-bar,
+.blackbar .navbar-toggle:focus .icon-bar,
+.blackbar .navbar-toggle:active .icon-bar {
+	background-color:#856324;
+}
+.blackbar .navbar-nav > .open > a,
+.blackbar .navbar-nav > .open > a:hover,
+.blackbar .navbar-nav > .open > a:focus{
+	background-color:transparent;
+}
+.blackbar li a .caret {
+    display: none;
+}
+.blackbar li.dropdown a.dropdown-toggle .caret {
+    display: inline-block;
+    margin-left:5px;
+}
+.blackbar .dropdown .dropdown-menu {
+	background-color:#171717;
+	border:0px;
+	border-radius:0px;
+}
+.blackbar .dropdown .dropdown-menu > li > a {
+	color:#999;
+}
+.blackbar .dropdown .dropdown-menu > li > a:hover,
+.blackbar .dropdown .dropdown-menu > li > a:focus {
+	background-color:transparent;
+	color:#fff;
+}
+.blackbar .dropdown .dropdown-menu > li.dropdown-submenu > a .caret {
+    display:none;
+}
+.blackbar .dropdown.open ul.dropdown-menu li.dropdown:hover > ul.dropdown-menu {
+    display:block;
+    top: 0;
+    left: 100%;
+}
+.blackbar .dropdown.open ul.dropdown-menu li.dropdown:hover > ul.dropdown-menu li.dropdown ul.dropdown-menu {
+    display:none;
+}
+.blackbar .dropdown.megamenu {
+	position: static;
+}
+.blackbar .dropdown.megamenu .dropdown-menu {
+	left: auto;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul {
+	width:160px;
+	padding:0px;
+	list-style-type:none;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul li {
+	color:#999;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul li a {
+	padding: 3px 20px;
+	color:#999;
+	text-decoration:none;
+	display:block;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul li a:hover {
+	color:#fff;
+}
+.blackbar .dropdown.megamenu .dropdown-menu ul li img {
+	width:100%;
+	padding: 0px 20px 15px 20px;
+}
+
+.sidenav {
+    clear: left;
+    overflow: hidden;
+    font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.sidenav>ul {
+    margin-bottom: 25px;
+    padding: 0;
+    list-style-type: none
+}
+
+.sidenav>ul a {
+    display: block;
+    padding: 12px 0;
+    white-space: initial;
+}
+
+.sidenav>ul a:link {
+    color: #555;
+    text-decoration: none
+}
+
+.sidenav>ul a:visited {
+    color: #555;
+    text-decoration: none
+}
+
+.sidenav>ul a:hover {
+    color: #000;
+    text-decoration: underline
+}
+
+.sidenav>ul a:active {
+    color: #000;
+    text-decoration: underline
+}
+
+.sidenav>ul li {
+    overflow: hidden;
+    border-bottom: solid 1px #ccc;
+    padding: 0
+}
+
+.sidenav>ul li.dropdown-submenu>a {
+    position: relative;
+    padding-right: 15px;
+    font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold
+}
+
+.sidenav>ul li.dropdown-submenu>a>.caret {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    float: right
+}
+
+.sidenav>ul li.dropdown-submenu ul.dropdown-menu {
+    position: static;
+    width: 100%;
+    margin-top: -10px;
+    padding: 0 0 10px 20px;
+    border: none;
+    box-shadow: none;
+    list-style-type: none;
+    font-size: 1em
+}
+
+.sidenav>ul li.dropdown-submenu ul.dropdown-menu li {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 0
+}
+
+.sidenav>ul li.dropdown-submenu ul.dropdown-menu li a {
+    display: block;
+    padding: 5px
+}
+
+.sidenav>ul li.dropdown-submenu ul.dropdown-menu li a:link {
+    background: none
+}
+
+.sidenav>ul li.dropdown-submenu ul.dropdown-menu li a:visited {
+    background: none
+}
+
+.sidenav>ul li.dropdown-submenu ul.dropdown-menu li a:hover {
+    background: none
+}
+
+.sidenav>ul li.dropdown-submenu ul.dropdown-menu li a:active {
+    background: none
+}
+
+.sidenav>ul>li:first-child {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.sidenav>ul>li:first-child a:link {
+    padding: 0;
+    background-color: #444;
+    color: inherit;
+    border-left: none
+}
+
+.sidenav>ul>li:first-child a:visited {
+    padding: 0;
+    background-color: #444;
+    color: inherit;
+    border-left: none
+}
+
+.sidenav>ul>li:first-child a:hover {
+    padding: 0;
+    background-color: #444;
+    color: inherit;
+    border-left: none
+}
+
+.sidenav>ul>li:first-child a:active {
+    padding: 0;
+    background-color: #444;
+    color: inherit;
+    border-left: none
+}
+
+@media (max-width: 767px) {
+    .sidenav {
+        padding-top: 15px
+    }
+}
+
+.open>.dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box;
+}
+
+
+.boxes {
+	padding:10px 5px;
+	/*margin:0px;*/
+}
+.boxes .row,
+.boxes .row div {
+	margin:0px;
+	padding:0px;
+}
+.boxes .row div a {
+	font-weight: 300;
+}
+.boxes .row .emergency,
+.boxes .row .currentstudents,
+.boxes .row .ourresearch,
+.boxes .row .communityoutreach,
+.boxes .row .eventcalendar,
+.boxes .row .visit,
+.boxes .row .business,
+.boxes .row .facultystaff,
+.boxes .row .prospectivestudents,
+.boxes .row .movein,
+.boxes .row .alumnidonors,
+.boxes .row .careers,
+.boxes .row .newsevents,
+.boxes .row .button1,
+.boxes .row .button2,
+.boxes .row .button3,
+.boxes .row .button4{
+	/*border: 10px solid white;*/
+	padding:10px;
+}
+.emergency a,
+.currentstudents a,
+.ourresearch a,
+.communityoutreach a,
+.eventcalendar a,
+.visit a,
+.business a,
+.facultystaff a,
+.prospectivestudents a,
+.movein a,
+.alumnidonors a,
+.careers a,
+.newsevents a,
+.button1 a,
+.button2 a,
+.button3 a,
+.button4 a{
+	background-size:cover;
+	background-position:top right;
+	background-repeat:no-repeat;
+	width:100%;
+	display:block;
+	position:relative;
+	text-decoration:none;
+}
+.emergency a,
+.currentstudents a,
+.communityoutreach a,
+.facultystaff a,
+.prospectivestudents a,
+.movein a,
+.alumnidonors a,
+.careers a,
+.ourresearch a,
+.newsevents a,
+.button1 a,
+.button2 a,
+.button3 a,
+.button4 a{
+	background-position:center center;
+}
+.eventcalendar a,
+.visit a,
+.business a {
+	background-position:top right;
+}
+.emergency a {
+	background-color:#FF0000;
+	border:0px;
+}
+
+.spotlight-full img{
+    max-width: 50%;
+}
+/********************************************************/
+/********************************************************/
+/********************************************************/
+/* BANNER CONTROLLERS */
+.currentstudents a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/students.jpg');
+	border-bottom:8px solid #849e2a;
+}
+.ourresearch a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/fountainwavy.jpg');
+	border-bottom:8px solid #7ca6c0;
+}
+.communityoutreach a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/belltowertimelapse.jpg');
+	border-bottom:8px solid #7ca6c0;
+}
+.careers a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/belltowertimelapse.jpg');
+	border-bottom:8px solid #e9e45b;
+}
+.prospectivestudents a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/blockpstudents.jpg');
+	border-bottom:8px solid #c28e0e;
+}
+
+.alumnidonors a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/lion.jpg');
+	border-bottom:8px solid #ffd100;
+}
+.newsevents a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/fountain.jpg');
+	border-bottom:8px solid #4d4038;
+}
+.button1 a {
+    background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/belltowertimelapse.jpg');
+	border-bottom:8px solid #e9e45b;
+}
+.button2 a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/blockpstudents.jpg');
+	border-bottom:8px solid #c28e0e;
+}
+
+.button3 a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/lion.jpg');
+	border-bottom:8px solid #ffd100;
+}
+.button4 a {
+	background-image: url('https://cla.purdue.edu/images/pagebuttons/bw/fountain.jpg');
+	border-bottom:8px solid #4d4038;
+}
+/********************************************************/
+/********************************************************/
+/********************************************************/
+a .caption {
+	position:absolute;
+	bottom:5px;
+	left:10px;
+	color:#fff;
+	font-size:18px;
+	font-weight:300;
+	line-height:18px;
+	text-transform:uppercase;
+}
+.emergency a .caption {
+	top:0px;
+	left:0px;
+	margin:20px;
+	text-shadow:none;
+}
+.currentstudents a .caption,
+.communityoutreach a .caption,
+.facultystaff a .caption,
+.prospectivestudents a .caption,
+.movein a .caption,
+.alumnidonors a .caption,
+.careers a .caption,
+.ourresearch a .caption,
+.newsevents a .caption,
+.button1 a .caption,
+.button2 a .caption,
+.button3 a .caption,
+.button4 a .caption{
+	text-shadow:2px 2px 5px #000;
+}
+.eventcalendar a .caption,
+.visit a .caption,
+.business a .caption {
+	padding-bottom:8px;
+}
+.content-sidebox{
+    width:185px;
+    margin-left:10px;
+    padding:10px;
+    background-color:#eee;
+    float:right;
+    display:block;
+}
+/* START Purdue Home page box styles */
+@media only screen and (max-width: 479px) {
+	.boxes .row div a {
+		height:100px;
+	}
+	a .caption {
+		font-size:18px;
+		line-height: 18px;
+	}
+	.boxes .row .emergency a {
+     height:240px;   
+	}
+	.boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a,
+	.boxes .row .ourresearch a {
+		height:220px !important;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.boxes .row div a {
+		height:138px;
+	}
+	a .caption {
+		font-size:18px;
+		line-height: 18px;
+	}
+    .boxes .row .emergency a {
+     height:180px;   
+	}
+    .boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a,
+	.boxes .row .ourresearch a {
+		height:296px !important;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.boxes {
+		padding: 7px;
+	}
+	.boxes .row .emergency a,
+	.boxes .row .currentstudents,
+	.boxes .row .ourresearch,
+	.boxes .row .communityoutreach,
+	.boxes .row .eventcalendar,
+	.boxes .row .visit,
+	.boxes .row .business,
+    .boxes .row .facultystaff,
+	.boxes .row .prospectivestudents,
+	.boxes .row .movein,
+	.boxes .row .alumnidonors,
+	.boxes .row .careers {
+		/*border: 7px solid white;*/
+	}
+}
+@media only screen and (min-width: 768px) {
+	.boxes .row div a {
+		height:102px;
+	}
+    .boxes .row .emergency a {
+     height:120px;   
+	}
+	.boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a,
+	.boxes .row .ourresearch a {
+		height:224px;
+	}
+    .top .department{
+    border-left: solid 1px #C28E0E;
+    padding-left: 0;
+    margin-left:10px;}
+}
+	/*a .caption {*/
+	/*	font-size:13px;*/
+	/*	line-height:13px;*/
+	/*}*/
+    /*.footer{max-height:300px;}*/
+}
+@media only screen and (min-width: 992px) {
+	.boxes .row div a {
+		height:138px;
+	}
+	.boxes .row .emergency a {
+     height:180px;   
+	}
+	.boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a,
+	.boxes .row .ourresearch a {
+		height:296px;
+	}
+	a .caption {
+		font-size:18px;
+		line-height:18px;
+	}
+    .footer{max-height:200px;}
+    
+}
+@media only screen and (min-width: 1200px) {
+	.boxes .row div a {
+		height:172px;
+	}
+	.boxes .row .emergency a {
+     height:200px;   
+	}
+	.boxes .row .prospectivestudents a,
+	.boxes .row .movein a,
+	.boxes .row .alumnidonors a,
+	.boxes .row .ourresearch a {
+		height:364px;
+	}
+	a .caption {
+		font-size:24px;
+		line-height:24px;
+	}
+    .footer{max-height:200px;}
+    
+}
+/* END Purdue Home page box styles */
+
+
+.banner1,
+.banner2,
+.banner3 {
+	background-size:cover;
+	background-position:center center;
+	padding:0px;
+	border:20px solid #fff;
+	position: relative;
+}
+.banner1 {
+	background-image:url('https://cla.purdue.edu/_template/stockGraphics/banner1.jpg');
+}
+.banner2 {
+	background-image:url('https://cla.purdue.edu/_template/stockGraphics/banner2.jpg');
+}
+.banner3 {
+	background-image:url('https://cla.purdue.edu/_template/stockGraphics/banner3.jpg');
+}
+
+.carousel-caption {
+	left:20px;
+	right:auto;
+	text-align:left;
+	padding:0px;
+}
+
+.carousel-caption h2 {
+	background-color:#98700d;
+	color:#fff;
+	text-shadow:none;
+	font-size:18px;
+	padding:10px;
+	margin:0px;
+	display: inline-block;
+}
+.clickable{
+    cursor:pointer
+}
+.carousel-caption p {
+	background-color:#fff;
+	text-shadow:none;
+	font-size:12px;
+	padding:10px;
+	margin:0px;
+	color:#000;
+}
+.carousel-control {
+	opacity: 1;
+	color: #ccc;
+	text-shadow: none;
+}
+.carousel-control:hover {
+	color:#333;
+}
+.carousel-control.left,
+.carousel-control.right {
+	background:none;
+	height:100%;
+	width: 25px;
+	font-size: 20px;
+}
+.carousel-control .fa {
+	top:50%;
+	position:relative;
+}
+
+.carousel-indicators {
+	/*bottom: -10px;*/
+	display:none;
+}
+.carousel-indicators li {
+	border-color:#ccc;
+}
+.carousel-indicators .active {
+	background-color: #ccc;
+	width:11px;
+	height:11px;
+}
+.audience {
+	background-image:none;
+	background-color:#999;
+    background-position:center center;
+	background-size:cover;
+	padding:15px;
+	text-shadow: 1px 1px 5px #000;
+}
+.audience h2 {
+	color:#fff;
+}
+.audience p {
+	margin-bottom:20px;
+	color:#fff;
+	font-size:14px;
+}
+.audience .btn {
+	background-image: url('https://cla.purdue.edu/_template/stockGraphics/transparentblack.png');
+	border:1px solid #fff;
+	border-radius:0px;
+	padding:12px;
+	margin:30px 0px;
+	color:#fff;
+	text-shadow:none;
+    width:100%;
+}
+.audience .btn:hover {
+	background-color:#999;
+    background-image:none;
+}
+.resources {
+	padding:10px 0px;
+}
+.resources h4 {
+	font-size: 26px;
+	color:#6f6f6f;
+	margin-top:0px;
+}
+.resources .links {
+	display:inline-block;
+	text-align:left;
+}
+.resources .links h6 {
+	margin-top:0px;
+}
+.resources .links ul {
+	list-style-type:none;
+	padding-left:0px;
+}
+.resources .links ul li a {
+	color:#000;
+	font-size:12px;
+}
+.events {
+	padding-bottom:20px;
+}
+.events .photo {
+	background-image: url('http://www.purdue.edu/visit/_images/rtcontentmedia/PMUlawn.jpg');
+	background-size: cover;
+	background-position:center center;
+	border-left:15px solid #fff;
+	border-right:5px solid #fff;
+	height:280px;
+	display:block;
+}
+.events h4 {
+	color:#fff;
+	background-color:#4d4d4f;
+	margin:0px;
+	padding:10px;
+}
+
+.events .rss-items {
+	list-style-type:none;
+	margin:0px;
+	padding: 0px 0px 20px 0px;
+	display:block;
+}
+.events .rss-items li.rss-item {
+	width:100%;
+	height:60px;
+	float:left;	
+	background-color:#f5f5f5;
+	margin-top:20px;
+	display:block;
+	position:relative;
+}
+.events .rss-items li.rss-item:nth-child(3) {
+	
+}
+.events .rss-items li.rss-item a {
+	color: #98700d;
+	text-decoration:none;
+	margin-left:75px;
+	/*margin-top:20px;*/
+	height:inherit;
+	padding:0px;
+    line-height: 60px;
+}
+.events .rss-items li.rss-item .rss-date {
+	background-color:#999;
+	padding:10px 15px;
+	width:60px;
+	text-align:center;
+	position:absolute;
+	left:0px;
+	color:#fff;
+    font-size:14px;
+}
+.events .rss-items li.rss-item a,
+.events .rss-items li.rss-item .rss-date {
+	display:inline-block;
+}
+.events .rss-items li.rss-item br {
+	display:none;
+}
+.audiencefeature {
+	background-image:url('https://cla.purdue.edu/_template/stockGraphics/audiencefeature.jpg');
+	background-size:cover;
+    background-position: center center;
+	min-height:400px;
+}
+.audiencefeature .caption {
+    background-image:url("https://cla.purdue.edu/images/bgTrans.png");
+	padding:25px;
+}
+.audiencefeature .caption h3,
+.audiencefeature .caption p {
+	color:#fff;
+	text-shadow: 1px 1px 5px #333;
+}
+.breadcrumb {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f5f5f5;
+    color: #444;
+    font-size: 0.75em;
+	margin-bottom:25px;
+}
+
+.breadcrumb a:link {
+    color: inherit;
+    font-weight: 300;
+    text-decoration: none
+}
+
+.breadcrumb a:visited {
+    color: inherit;
+    font-weight: 300;
+    text-decoration: none
+}
+
+.breadcrumb a:hover {
+    color: inherit;
+    font-weight: 300;
+    text-decoration: underline
+}
+
+.breadcrumb a:active {
+    color: inherit;
+    font-weight: 300;
+    text-decoration: underline
+}
+
+.breadcrumb ol {
+    margin: 0
+}
+
+.breadcrumb li:before {
+    content: "/";
+    display: inline-block;
+    margin: 0 10px 0 5px
+}
+
+.breadcrumb li:first-child:before {
+    content: none
+}
+
+.breadcrumb li {
+    display: inline-block;
+    padding: 2px 0
+}
+
+.hero,
+.feed,
+.deptaudience {
+	height:300px;
+	overflow:hidden;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.hero {
+	position:relative;
+	background-image:url('../stockGraphics/banner1.jpg');
+	background-size:cover;
+	background-position:center center;	
+	border-left:15px solid #fff;
+	border-right:20px solid #fff;
+	padding:0px;
+}
+.hero .carousel-caption {
+	left:10px;
+	bottom:10px;
+	padding:0px;
+	max-width:90%;
+}
+.hero .carousel-caption h2 {
+	background-color:#98700d;
+	padding-right:30px;
+}
+.hero .carousel-caption p {
+	background-color:#3b3b3b;
+	color:#fff;
+	padding-right:30px;
+}
+.feed {
+	padding:0px;
+	border-right:15px solid #fff;
+}
+.feed .nav-tabs,
+.feed .tab-content {
+	float:left;
+	width:100%;
+}
+
+.feed .nav-tabs {
+	border:0px;
+	display:inline-block;
+    background-color: #666;
+}
+.feed .nav-tabs > li {
+	padding:0px;
+	margin:0px;
+	border-left:1px solid #eee;
+}
+.feed .nav-tabs > li:nth-child(1) {
+	border:0px;
+}
+.feed .nav-tabs > li > a {
+	border-radius:0px;
+	border:0px;
+	margin:0px;
+	color:#fff;
+	text-align:center;
+	font-weight:300;
+	padding:10px 0px;
+	letter-spacing:1px;
+}
+.feed .nav-tabs > li > a:hover {
+	background-color:#666;
+}
+.feed .nav-tabs > li.active > a,
+.feed .nav-tabs > li.active > a:hover,
+.feed .nav-tabs > li.active > a:focus {
+	background-color:#666;
+	color:#fff;
+	border:0px;
+}
+.feed .tab-content {
+	background-color:#eee;
+	height:100%;
+}
+.feed .tab-content .tab-pane h3 {
+    font-size: 16px;
+    padding: 0px 15px;
+}
+.feed .tab-content .tab-pane p {
+    padding: 0px 15px;
+}
+.feed .tab-content .tab-pane p a {
+    text-decoration:none;
+}
+.feed .tab-content .tab-pane p a:hover {
+    text-decoration:underline;
+}
+.feed .tab-content .tab-pane ul {
+    font-size: 12px;
+    list-style-type: square;
+    padding: 0px 20px 10px 20px;
+    margin: 0px 0px 0px 10px;
+}
+.feed .tab-content .tab-pane ul li a {
+    color: #98700d;
+}
+.feed .tab-content .tab-pane div ul {
+	list-style-type:square;
+	padding:20px;
+	margin:0px 0px 0px 10px;
+}
+.feed .tab-content .tab-pane div ul li {
+	line-height:14px;
+	margin-bottom:15px;
+}
+.feed .tab-content .tab-pane div ul li a {
+	color:#98700d;
+	font-size:12px;
+}
+.deptaudience {
+	padding:0px;
+}
+.deptaudience div {
+	border-right:20px solid rgba(0,0,0,0);
+	padding:0px !important;
+    margin-bottom:20px;
+}
+.deptaudience div a {
+	/*background-color:#3b3b3b;
+	background-image:none;*/
+	height:140px;
+}
+.deptaudience div a .caption {
+	position:absolute;
+	color:#fff;
+	font-size:18px;
+	font-weight:300;
+	line-height:20px;
+	/*padding:10px;
+	bottom:0px;*/
+}
+
+.deptaudience div.currentstudents,
+.deptaudience div.prospectivestudents{
+	margin-bottom: 20px;
+}
+
+
+.feature a {
+	color:#666;
+	background-color:#eee;
+	width:100%;
+	display:block;
+	text-align:center;
+	padding:10px;
+	margin-bottom:20px;
+	text-decoration:none;
+}
+.feature a:hover {
+	background-color:#666;
+	color:#fff;
+}
+
+.featuredlink a {
+    color:#666;
+	background-color:#eee;
+	width:100%;
+	display:block;
+	text-align:center;
+	padding:10px;
+	text-decoration:none;
+}
+.featuredlink a:hover {
+	background-color:#666;
+	color:#fff;
+}
+
+
+
+
+.maincontent {
+	padding-bottom:20px;
+}
+.maincontent .banner {
+	width:100%;
+	padding-bottom:20px;
+    margin:0;
+}
+.maincontent h1 {
+	margin-top:0px;
+}
+.maincontent.news h3 {
+	display:inline-block;
+	color:#999;
+	padding-right:10px;
+	margin:0px;
+}
+.maincontent.news h3.date {
+	border-left:1px solid #999;
+	padding-left:10px;
+}
+.maincontent.news span.photo {
+	float:right;
+	margin:0px;
+	margin-left:15px;
+	margin-bottom:20px;
+	width:216px;
+	color:#666;
+}
+.maincontent.news span.photo img {
+	display:block;
+	width:inherit;
+}
+.maincontent.news span.photo p {
+	padding:15px;
+	margin:0px;
+	background-color:#f5f5f5;
+}
+
+.sidecontent {
+    clear:left;
+}
+
+.sidecontent.news h3 {
+	margin-top:0px;
+}
+.sidecontent.news ul {
+	list-style-type: square;
+	padding-left:15px;
+	margin:0px;
+}
+.sidecontent.news ul li {
+	padding-bottom: 15px;
+}
+.sidecontent.news ul li a {
+	color:#333;
+	line-height:14px;
+	/*font-size:12px;*/
+}	
+.rightnav h5 {
+	color:#333;
+}
+.rightnav ul {
+	list-style:none;
+	padding-left:0px;
+}
+.rightnav ul li a {
+	color:#333;
+	/*font-size:12px;*/
+}
+.college {
+	
+}
+.college .container .row {
+	margin:20px auto;
+}
+.college .intro {
+	background-color:#C28E0E;
+	padding:30px;
+	height:inherit;
+}
+.college .intro h1 {
+	margin-top:0px;
+	color:#edb700;
+	font-size:22px;
+}
+.college .intro p {
+	color:#fff;
+}
+.college .intro .btn {
+	color:#fff;
+	border:1px solid #edb700;
+	border-radius:0px;
+	width:100%;
+	text-align:center;
+	text-decoration:none;
+	margin:10px 0px;
+}
+.college .intro .btn:hover {
+	color:#000;
+	background-color: #edb700;
+}
+.college .grid {
+	height:inherit;
+	padding-left:20px;
+	padding-right:0px;
+}
+.college .grid a {
+	height:inherit;	
+	position:relative;
+}
+.college .grid .grid1,
+.college .grid .grid2,
+.college .grid .grid3_1,
+.college .grid .grid3_2,
+.college .grid .grid3_3,
+.college .grid .grid3_4,
+.college .grid .grid4 {
+	height:inherit;
+}
+
+.college .grid .grid1 .banner {
+	background-image:url('../stockGraphics/grid1.jpg');
+	background-size:cover;
+	background-position:center center;
+	position:relative;
+	height:inherit;
+}
+.college .grid .grid2 div {
+	padding:0px;
+	height:inherit;
+}
+.college .grid .grid2 div:nth-child(1) {
+	padding-right:10px;
+}
+.college .grid .grid2 div:nth-child(2) {
+	padding-left:10px;
+}
+.college .grid .grid3_1 div {
+	padding:0px;
+}
+.college .grid .grid3_1 div:nth-child(1) {
+	margin-bottom:20px;
+}
+.college .grid .grid3_1 div:nth-child(2) {
+	padding-right:10px;
+}
+.college .grid .grid3_1 div:nth-child(3) {
+	padding-left:10px;
+}
+.college .grid .grid3_2 div {
+	padding:0px;
+}
+.college .grid .grid3_2 div:nth-child(3) {
+	margin-top:20px;
+}
+.college .grid .grid3_2 div:nth-child(1) {
+	padding-right:10px;
+}
+.college .grid .grid3_2 div:nth-child(2) {
+	padding-left:10px;
+}
+.college .grid .grid3_3 div:nth-child(3) {
+	margin-top:20px;
+}
+.college .grid .grid3_3 div:nth-child(1) {
+	padding-right:10px;
+	padding-left:0px;
+}
+.college .grid .grid3_3 div:nth-child(2),
+.college .grid .grid3_3 div:nth-child(3) {
+	padding-left:10px;
+	padding-right:0px;
+}
+.college .grid .grid3_4 div {
+	padding:0px;
+}
+.college .grid .grid3_4 div:nth-child(2) {
+	padding-left:10px;
+}
+.college .grid .grid3_4 div div {
+	padding-left:0px !important;
+	padding-right:10px;
+}
+.college .grid .grid3_4 div div:nth-child(1) {
+	margin-bottom:20px;
+}
+.college .grid .grid4 div {
+	padding:0px;
+	margin:0px;
+}
+.college .grid .grid4 div:nth-child(1),
+.college .grid .grid4 div:nth-child(2) {
+	margin-bottom:20px;
+}
+.college .grid .grid4 div:nth-child(1),
+.college .grid .grid4 div:nth-child(3) {
+	padding-right:10px;
+}
+.college .grid .grid4 div:nth-child(2),
+.college .grid .grid4 div:nth-child(4) {
+	padding-left:10px;
+}
+.footer {
+	background-color:#000000;
+	padding:20px 0px;
+}
+.footer .container .row {
+	margin-bottom:0px;
+}
+.footer .container .row div {
+	border-radius:0px;
+	border:0px;
+	box-shadow:none;
+	margin:0px;
+	background-color:transparent;
+}
+.footer .container .row .panel {
+	/*border-right:1px solid #b1810b;*/
+}
+.footer .container .row .panel:nth-child(3),
+.footer .container .row .panel:nth-child(4) {
+	/*border-left: 1px solid #b1810b; 
+	border-right:0px;*/
+}
+.footer .container .row .panel:nth-child(1) .panel-collapse .panel-body ul li,
+.footer .container .row .panel:nth-child(2) .panel-collapse .panel-body ul li {
+	text-align:right;
+}
+.footer .container .row .panel:nth-child(3) .panel-collapse .panel-body ul li,
+.footer .container .row .panel:nth-child(4) .panel-collapse .panel-body ul li {
+	text-align:left;
+}
+.footer .container .row div:nth-child(5) {
+	border:0px;
+}
+.footer .container .row div ul {
+	list-style-type:none;
+	padding-left:0px;
+	margin-bottom:0px;
+}
+.footer .container .row div .panel-heading {
+	color:inherit;
+	border:0px;
+	padding:0px;
+}
+.footer .container .row div .panel-heading h4 {
+	display:none;
+	position:relative;
+}
+.panel-default > .panel-heading+.panel-collapse .panel-body {
+	border:0px !important;
+	padding:0px;
+}
+
+.footer ul li {
+	line-height:14px;
+}
+.footer ul li a,.footer ul li a:visited {
+	/*font-size:10px;
+	color:#fff;*/
+    
+    text-decoration:none;
+    font-size:100%;
+    color:#adadad;
+    margin:0;
+    border:0;
+    border-bottom:1px solid #474747;
+    padding:8px 0 2px;
+    display:inline-block;
+    font-weight:400;
+    width:100%;
+    text-align:left;
+}
+.footer ul li a:hover {
+	color:#C28E0E;
+	text-decoration:none;
+}
+
+.footer .motto {
+	height:100%;
+	text-align:center;
+}
+.footer .motto img {
+	width:100%;
+	vertical-align:middle;
+	padding:0px 0px 5px 0px;
+	display:block;
+	margin:0px auto;
+}
+.footer .motto a {
+	color:#999;
+}
+.footer .motto a:hover {
+	color:#fff;
+}
+.footer .motto a .fa {
+	font-size:20px;
+	margin:5px 7px;
+}
+
+
+.bottom {
+	background-color:#3b3b3b;
+	padding:10px 0px;
+}
+.bottom p {
+	color:#ccc;
+	padding:0;
+	font-size:12px;
+	text-align:center;
+}
+.bottom p a {
+	color:#ccc;
+}
+
+
+
+/*** General Media Queries ***/
+
+/* iPhone */
+@media only screen and (max-width: 479px) {
+	
+}
+/* Mobile */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+/*@media screen and (max-width: 580px) {
+	.top .logo,
+	.top .department {
+		display:block;
+		width:100%;
+		text-align:center;
+	}
+	.top .department {
+		margin-top: 0px !important;
+	}
+	.top .logo a {
+		width:50%;
+		margin:0px auto;
+	}
+	.top .logo a img {
+		width:100%;
+	}
+	.top .department a {
+		border:0px;
+	}
+}*/
+/* XSmall */
+@media only screen and (max-width: 767px) {
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 400;
+	}
+	h1 {
+		font-size:28px;
+	}
+	h2 {
+		font-size:24px;
+	}
+	h3 {
+		font-size:22px;
+	}
+	h4 {
+		font-size:20px;
+	}
+	h5 {
+		font-size:18px;
+	}
+	h6 {
+		font-size:18px;
+	}
+	p, li {
+		font-size:16px;
+	}
+	.nav > li > a {
+		padding:10px 25px;
+	}
+	.goldbar.navbar-inverse .navbar-nav .dropdown-toggle {
+		display:none;
+	}
+	.goldbar.navbar-inverse .navbar-nav > li > a .caret {
+		display:none;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-inverse .navbar-nav .dropdown-menu > li > a,
+	.goldbar.navbar-inverse .quicklinks > li > a {
+		color:#fff;
+		text-transform:none;
+		padding: 5px 15px;
+		font-size: 14px;
+		line-height: 20px !important;
+		margin:0px;
+	}
+	.navbar .container {
+		padding:0px 15px;
+	}
+	.goldbar .information .dropdown-menu > li > a:hover,
+	.goldbar.navbar-inverse .quicklinks > li > a:hover {
+		color:#000;
+		background-color:transparent;
+	}
+	.goldbar .information,
+	.goldbar .quicklinks {
+		float:left;
+		width:50%;
+	}
+	.goldbar .information .hide,
+	.goldbar .quicklinks .hide {
+		display:block !important;
+		color:#000;
+		text-transform:none;
+		padding-left:15px;
+	}
+	.goldbar.navbar-inverse .quicklinks {
+	}
+	
+	.goldbar .navbar-nav .dropdown .dropdown-menu,
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		box-shadow: none;
+		display:block;
+	}
+	.goldbar .nav .dropdown {
+		padding:0px 10px;
+	}
+    .goldbar .search .dropdown a .fa-search {
+        line-height: inherit;
+    }
+	.goldbar .search .dropdown-toggle {
+		display:none;
+	}
+	.goldbar .search .dropdown-menu {
+		display:block;
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		border: 0;
+		box-shadow: none;
+	}	
+	.goldbar .search .form-group {
+		border:15px solid transparent;
+		width:100%;
+	}
+	.goldbar .search .form-group .form-control {
+		width:inherit;
+		background-color:#fff;
+		color:#000;
+	}
+    .cse input.gsc-input,
+    input.gsc-input {
+	    width:100% !important;
+    }
+	.top .logo {
+		display:block;
+		text-align:center;
+	}
+	.top .department {
+		width:100%;
+		text-align:center;
+	}
+	.top .department a{
+		border:0px;
+		font-size:1.25em;
+		font-weight:bold;
+        padding-bottom:15px;
+	}
+    .top .department a:hover {
+    	color:#C28E0E;
+	}
+    .department .tagline a.school{
+        font-size:1.1em;
+        font-weight:300;
+    }
+	.top .logo a {
+		width:50%;
+		margin:0px auto;
+	}
+	/*.top .department {
+		margin-top: 35px;
+	}
+	.top .department a {
+		font-size:20px;
+	}*/
+	.blackbar.navbar-inverse .navbar-nav > li > a:hover {
+		color:#C28E0E;
+	}
+	.blackbar.navbar-inverse .navbar-nav > li > a {
+		color:#fff;
+	}
+	/*.blackbar .navbar-nav .dropdown .dropdown-menu .dropdown-submenu .dropdown-menu,
+	.blackbar .navbar-nav .open .dropdown-menu .dropdown-submenu .dropdown-menu {
+		display:none;
+	}*/
+	.blackbar.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
+	.blackbar.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+		padding: 5px 35px;
+	}
+	.blackbar.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+	.blackbar.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover {
+		color: #C28E0E;
+	}
+	.blackbar .dropdown-submenu > a:after {
+		display: inline-block;
+		width: 0;
+		height: 0;
+		margin-left: 4px;
+		vertical-align: middle;
+		border-top: 4px solid;
+		border-right: 4px solid transparent;
+		border-left: 4px solid transparent;
+		float:none;
+	}
+	.blackbar.navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-submenu > .dropdown-menu li a,
+	.blackbar.navbar-inverse .navbar-nav .dropdown-menu > .dropdown-submenu > .dropdown-menu li a {
+		padding: 5px 55px;	
+	}
+	.banner1,
+	.banner2,
+	.banner3,
+	.carousel-control.left,
+	.carousel-control.right,
+	.carousel-indicators {
+		display:none;
+	}
+	.audience {
+		text-align:center
+	}
+	.audience h2 {
+		font-size:35px;
+		margin-top:0px;
+	}
+	.audience p {
+		display:none;
+	}
+	.audience .btn {
+		margin:10px 0px;
+		font-size:1.5em;
+	}
+	.resources {
+		padding:20px;
+	}
+	.resources .photo {
+		border:0px;
+		padding:0px;
+	}
+	.resources h4 {
+		text-align:center;
+		font-size:35px;
+	}
+	.resources .links {
+		padding:0px 15px;
+		text-align:center;
+	}
+	.resources .links:nth-child(3),
+	.resources .links:nth-child(4) {
+		padding-top:15px;
+	}
+    .resources .links:nth-child(3) {
+        clear:left;
+    }
+	.resources .links h6,
+	.resources .links ul li a {
+		font-size:1.2em;
+	}
+	.events {
+		padding-bottom:20px;
+		background-color:#f5f5f5;
+	}
+	.events h4 {
+		display:inline-block;
+		font-size: 35px;
+		color: #6f6f6f; 
+		text-align: center;
+		background-color:transparent;
+		width:100%;
+		margin:0px;
+		padding:0px;
+	}
+	.events .rss-items {
+		padding:0px 10px;
+	}
+	.events .rss-items li.rss-item {
+		background-color:transparent;
+		width:100%;
+		/*height:inherit;*/
+		border:0px;
+		font-size: 1.2em;
+	}
+	.events .rss-items li.rss-item a {
+		margin-top:0px;
+	}
+	.events .rss-items li.rss-item .rss-date {
+		padding:1px 10px;
+	}
+	.events .photo {
+		border:0px;
+		margin-bottom:20px;
+	}
+	.audiencefeature {
+		background-image:url('../stockGraphics/audiencefeature.jpg');
+		background-size:cover;
+		background-position:center center;
+		height:inherit;
+		padding:0px;
+	}
+	.audiencefeature .caption {
+		background-image:url('../stockGraphics/transparentblack.png');
+	}
+	.breadcrumb {
+		display:none;
+	}
+	.maincontent {
+		float:none;
+		padding-top:20px;
+	}
+	
+	.hero,
+	.feed {
+		border:0px;
+	}
+	.hero {
+		height:200px;
+		border-left: 15px solid #fff;
+		border-right: 15px solid #fff;
+	}
+	.hero .carousel-caption {
+		display:none;
+	}
+	.feed {
+		border-left: 15px solid #fff;
+        border-right: 15px solid #fff;
+        height:inherit;
+        margin-bottom:0px;
+	}
+    .feed .tab-content .tab-pane h3 {
+        font-size:22px;
+    }
+    .feed .tab-content .tab-pane ul {
+        font-size: 16px;
+    }
+    .feed .tab-content .tab-pane div ul li {
+        line-height: 20px;
+    }
+    .feed .tab-content .tab-pane div ul li a {
+        font-size: 16px;
+    }
+	.deptaudience {
+		padding-left: 15px;
+		padding-right: 15px;
+		height:auto;
+		margin-bottom:0px;
+	}
+	.deptaudience div {
+		border:0px;
+	}
+	.deptaudience div:nth-child(1),
+	.deptaudience div:nth-child(3) {
+		border-right: 10px solid #fff;
+	}
+	.deptaudience div:nth-child(2),
+	.deptaudience div:nth-child(4) {
+		border-left: 10px solid #fff;
+	}
+    .deptaudience div.destiny{
+        border-left:0px;
+        border-right:0px;    
+    }
+    .deptaudience div.tricorn{
+        border-right:10px solid #fff;
+        
+    }
+    .deptaudience div.cryptarch{
+        border-left:10px solid #fff;
+    }
+	.deptaudience div a {
+		height:100px !important;
+	}
+	.feature a {
+		margin-left:0px;
+		margin-bottom:20px;
+        font-size:16px;
+	}
+    .featuredlink a {
+    	margin-left:0px;
+		margin-bottom:20px;
+        font-size:16px;
+	}
+	.rightnav {
+		display:none;
+	}
+	.maincontent.news {
+		padding-bottom:0px;
+	}
+	.maincontent.news span.photo {
+		float:none;
+		margin-left:0px;
+		margin-bottom:20px;
+		display:block;
+		width:100%;
+	}
+	.maincontent.news span.photo img {
+		width:100%;
+	}
+	.maincontent.news span.photo p {
+		padding:20px;
+	}
+	.sidecontent.news h3 {
+		margin-top: 20px;
+		padding-top:20px;
+		border-top: 1px solid #eee;
+	}
+	.sidecontent.news .rss-item a {
+		font-size:16px;
+	}
+	.college .container .row {
+		height:inherit;
+	}
+	.college .container .row .grid {
+		padding-left:0px;
+		margin-top:20px;
+	}
+	.college .grid .grid1 .banner {
+		height:300px;
+	}
+	.college .grid .grid2 div,
+	.college .grid .grid3_1 div,
+	.college .grid .grid3_2 div,
+	.college .grid .grid3_3 div,
+	.college .grid .grid3_4 div,
+	.college .grid .grid3_4 div div,
+	.college .grid .grid4 div {
+		height:100px !important;
+	}
+	.college .grid .grid3_3 div:nth-child(1) {
+		margin-bottom:20px;
+		padding-right:0px;
+	}
+	.college .grid .grid3_3 div:nth-child(2) {
+		padding-right:10px;
+		padding-left:0px;		
+	}
+	.college .grid .grid3_3 div:nth-child(3) {
+		margin-top:0px;
+		padding-left:10px;
+	}
+	.college .grid .grid3_4 div:nth-child(2) {
+		padding-left:0px;
+		margin-bottom:0px;
+	}
+	.college .grid .grid3_4 div {
+		margin-bottom:20px;
+	}
+	.college .grid .grid3_4 div div:nth-child(1) {
+		padding-right:10px;
+	}
+	.college .grid .grid3_4 div div:nth-child(2) {
+		padding-right:0px;
+		padding-left:10px !important;
+	}
+	.footer {
+		padding:0px 0px 20px 0px;
+	}
+	.footer ul li a {
+		/*font-size:14px;
+		line-height:32px;*/
+        font-size:16px;
+        line-height:32px;
+        border:0;
+        color:#fff;
+        text-decoration:none;
+	}
+	.footer .container .row .panel {
+		border-left:0px !important;
+		border-right:0px !important;
+		border-bottom: 1px solid #333 !important;
+		z-index:9999;
+	}
+	.footer .container .row div:nth-child(1) {
+		border-left: 0px;
+		text-align: left;
+	}
+	.footer .container .row div:nth-child(2) {
+		border-right: 0px;
+	}
+	.footer .container .row div:nth-child(5) {
+		border:0px;
+	}
+	.footer .container .row div ul {
+		border:0px;
+		padding: 0px 20px 20px 20px;
+	}
+	.footer .container .row .panel .panel-collapse .panel-body ul li {
+		text-align:left !important;
+	}
+	.footer .container .row div .panel-heading h4 {
+		display:block;
+		font-size:16px;
+		color:#C28E0E;
+		padding:0px 10px;
+	}
+	.footer .container .row div .panel-heading h4 a {
+		width:100%;
+		display:block;
+		padding:15px 0px;
+		font-size:18px;
+	}
+	.footer .container .row div .panel-heading h4 a:hover {
+		text-decoration:none;
+	}
+	.footer .container .row div .panel-heading h4 a.collapsed .fa-minus {
+		display:none !important;
+	}
+	.footer .container .row div .panel-heading h4 a.collapsed .fa-plus {
+		display:block !important;
+	}
+	.footer .container .row div .panel-heading h4 a .fa-plus {
+		display:none;
+	}
+	.footer .container .row div .panel-heading h4 a .fa-minus {
+		display:block;
+	}
+	.footer .motto {
+		z-index:999;
+	}
+	.footer .motto img {
+		display:block;
+		margin:0px auto;
+		padding-top:20px;
+	}
+	.footer .motto a {
+		display:none;
+	}
+	.bottom p {
+		text-align:center;
+	}
+}
+/* Small */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.top .department {
+		margin-top: 29px;
+	}
+	.top .department a {
+		font-size:20px;
+	}
+	.banner1,
+	.banner2,
+	.banner3 {
+		height:386px;
+		width:760px;
+	}
+	.audience .btn {
+		float:right;
+		margin:10px;
+	}
+	.events .event {
+		height:140px;
+	}
+	.events .carousel-control {
+		top:20px;
+	}
+	.events .rss-items li.rss-item a {
+		text-overflow: ellipsis;
+		width:350px;
+		white-space: nowrap;
+		overflow:hidden;
+    }
+	.feed .nav-tabs > li > a {
+		font-size:12px;
+	}
+	.deptaudience div {
+		border-right: 15px solid #fff;
+	}
+	.deptaudience div.communityoutreach,
+	.deptaudience div.alumnidonors {
+		margin-bottom: 20px;
+	}
+	.deptaudience div a {
+		height:60px;
+	}
+	.college .container .row {
+		height:450px;
+	}
+	.college .grid .grid3_1 div,
+	.college .grid .grid3_2 div,
+	.college .grid .grid3_3 div,
+	.college .grid .grid3_4 div div,
+	.college .grid .grid4 div {
+		height:215px;
+	}
+	.college .grid .grid3_3 div:nth-child(1),
+	.college .grid .grid3_4 div,
+	.college .grid .grid3_4 div:nth-child(3) {
+		height:450px;
+	}
+}
+/* Medium */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.top .department {
+		margin-top: 35px;
+	}
+	.top .department a {
+		font-size:25px;
+	}
+	.banner1,
+	.banner2,
+	.banner3 {
+		height:494px;
+		width:980px;
+	}
+	.events .event {
+		height:105px;
+	}
+	.events .rss-items li.rss-item a {
+		text-overflow: ellipsis;
+		width:500px;
+		white-space: nowrap;
+		overflow:hidden;
+    }
+	.college .container .row {
+		height:400px;
+	}
+	.college .grid .grid3_1 div,
+	.college .grid .grid3_2 div,
+	.college .grid .grid3_3 div,
+	.college .grid .grid3_4 div div,
+	.college .grid .grid4 div {
+		height:190px;
+	}
+	.college .grid .grid3_3 div:nth-child(1),
+	.college .grid .grid3_4 div,
+	.college .grid .grid3_4 div:nth-child(3) {
+		height:400px;
+	}
+}
+/* Large */
+@media only screen and (min-width: 1200px) {
+	.top .department {
+		margin-top: 30px;
+	}
+	.top .department a {
+		font-size:25px;
+	}
+	
+	.banner1,
+	.banner2,
+	.banner3 {
+		height:596px;
+		width:1180px;
+	}
+	.events .event {
+		height:110px;
+	}
+	.events .rss-items li.rss-item a {
+		text-overflow: ellipsis;
+		width:650px;
+		white-space: nowrap;
+		overflow:hidden;
+    }
+	.college .container .row {
+		height:350px;
+	}
+	.college .grid .grid3_1 div,
+	.college .grid .grid3_2 div,
+	.college .grid .grid3_3 div,
+	.college .grid .grid3_4 div div,
+	.college .grid .grid4 div {
+		height:165px;
+	}
+	.college .grid .grid3_3 div:nth-child(1),
+	.college .grid .grid3_4 div,
+	.college .grid .grid3_4 div:nth-child(3) {
+		height:350px;
+	}
+
+}
+
+
+/* Non-Mobile */
+@media only screen and (min-width: 768px) {
+	.footer .container .row div .collapse {
+		display:block;
+	}
+}
+
+
+
+/******************* 
+CUSTOMS
+*******************/
+div.fullbanner {margin-bottom:20px;}
+div.fullbanner img.banner {width:100%;}
+@media only screen and (max-width: 767px) {
+ div.fullbanner {margin-top:20px;}   
+    
+}
+div.tag {
+    color: #fff;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+width: 100%;
+position: relative;
+background-image: url("https://cla.purdue.edu/images/buttons/lightBG.png");
+margin-top: -75px;
+height: 50px;
+    font-weight: 100;
+font-size: 1.5em;
+line-height: 24px;
+    
+    }
+div.deptTag{margin-bottom:25px;}
+/*.deptTag a {display: inline-block;width: 200px;height: 200px;z-index: 99;position: absolute;}*/
+.bg1 .tag{background-color:#7e543a;border-bottom:5px solid #7e543a;}
+.bg2 .tag{background-color:#a7a9ac;border-bottom:5px solid #a7a9ac;}
+.bg3 .tag{background-color:#5c6f7b;border-bottom:5px solid #5c6f7b;}
+.bg4 .tag{background-color:#b8b308;border-bottom:5px solid #b8b308;}
+.bg5 .tag{background-color:#a3d6d7;border-bottom:5px solid #a3d6d7;}
+.bg6 .tag{background-color:#d9da54;border-bottom:5px solid #d9da54;}
+.bg7 .tag{background-color:#f8981d;border-bottom:5px solid #f8981d;}
+.bg8 .tag{background-color:#b95915;border-bottom:5px solid #b95915;}
+.bg9 .tag{background-color:#2eafa4;border-bottom:5px solid #2eafa4;}
+.bg10 .tag{background-color:#5c8727;border-bottom:5px solid #5c8727;}
+.bioBanner{width:100%;background-image:url('https://cla.purdue.edu/_template/images/stripes-tile.png');background-repeat:repeat;height:60px;margin-bottom:25px;}
+.bioBanner h1{padding:10px;font-size:2.5em;color:#ffd100;}
+.maincontent p img{float:right;margin-left:25px;margin-bottom:25px;margin-right:0px;display:block;}
+.maincontent div img{float:right;margin-left:25px;margin-bottom:25px;margin-right:0px;display:block;}
+.maincontent img{float:right;margin-left:25px;margin-bottom:25px;margin-right:0px;display:block;}
+.galleryThumbs .fancybox img{float:left;}
+.galleryThumbs{clear:both;display:inline-block; }
+@media only screen and (max-width: 767px) {
+.bioBanner{background:none;height:100%;overflow:visible;}
+.bioBanner h1{padding:0px;float:none;font-size:2.5em;}
+.maincontent p img,.maincontent img,.maincontent div img{float:none;margin:0px;margin-right:auto;margin-left:auto;margin-bottom:10px;}
+.galleryThumbs .fancybox img{float:left;margin:25px;}
+}
+@media only screen and (min-width: 992px) {
+.audiencefeature{background-position: center -10px;}
+    
+}
+@media only screen and (min-width: 1200px) {
+.audiencefeature{background-position: center -10px;}
+table {width: 100%;border-collapse: collapse;}
+}
+
+
+/* Zebra striping */
+tr:nth-of-type(odd) {background: #eee;}
+th {background: #C28E0E;color: white;font-weight: bold;}
+td, th {padding: 6px; border: 1px solid #ccc; text-align: left;} 
+
+.hero .carousel-caption p a, .hero .carousel-caption p a:link, .hero .carousel-caption p a:hover{
+    color:#cccccc;
+}
+.socialbuttons {background:#eee; width:100%; text-align:center; margin-left:auto; margin-right:auto; color:#666; padding-bottom:15px;}
+.socialbuttons h3 {background:#666; margin-top:0px; color:#fff; font-weight:bold; padding:3px;}
+.socialbuttons a {border:none; text-decoration:none; color:#fff;}
+.socialbuttons a span {display:none;}
+.sbHold {margin-left:auto; margin-right:auto;}
+.facebook-sb {display:inline-block; margin:10px;width:140px; height:50px; background:url('https://cla.purdue.edu/images/sb/facebook.png'); border-radius:3px;}
+.twitter-sb {display:inline-block; margin:10px;width:140px; height:50px; background:url('https://cla.purdue.edu/images/sb/twitter.png'); border-radius:3px;}
+.youtube-sb {display:inline-block; margin:10px;width:140px; height:50px; background:url('https://cla.purdue.edu/images/sb/youtube.png'); border-radius:3px;}
+.pintrest-sb {display:inline-block; width:140px; margin:10px; height:50px; background:url('https://cla.purdue.edu/images/sb/pintrest.png'); border-radius:3px;}
+.email-sb {display:inline-block; width:140px; margin:10px; height:50px; background:url('https://cla.purdue.edu/images/sb/email.png'); border-radius:3px;}
+.linkedin-sb {display:inline-block; width:140px; height:50px; margin:10px; background:url('https://cla.purdue.edu/images/sb/linkedin.png'); border-radius:3px;}
+.sbComm {width:100%;}
+
+.links div a img{width:100%;display:block;padding-bottom:25px;}
+#breadcrumbs, .sidenav{text-transform:capitalize;}
+div.galleryThumbs a.fancybox img{margin-left:15px;margin-bottom:15px;}
+@media (max-width:767px){
+    div.galleryThumbs a.fancybox img{
+        margin:0;
+        width:49%;
+        float:none;
+        margin-bottom:5px;
+        display:inline-block;
+    }
+    div.galleryThumbs{
+        width:100%;
+    }
+    
+}
+.embed-container { position: relative; padding-bottom: 56.25%; /* 16/9 ratio */ padding-top: 30px; /* IE6 workaround*/ height: 0; overflow: hidden; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+code {word-wrap:break-word;white-space:normal;}
+/*.nav li a.active {color:#b1810b;}*/
+.nav li a.active:focus, .nav li a.active:hover{color:#fff;}
+
+.herolink{display: block;width: 100%;height: 100%;position: absolute;z-index:99;}
+
+.seperator {
+    border-bottom: 1px solid #e2e2e2;
+    position: relative;
+    margin:2em auto;
+}
+
+.seperator:before {
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 120px;
+    height: 4px;
+    background: #e2e2e2;
+}
+
+
+
+
+.seperator.c1{
+    border-bottom: 1px solid #000000;   
+}
+.seperator.c1:before{
+    background:#000000;
+}
+.seperator.c2{
+    border-bottom: 1px solid #C28E0E;   
+}
+.seperator.c2:before{
+    background:#C28E0E;
+}
+.seperator.c3{
+    border-bottom: 1px solid #4D4038;   
+}
+.seperator.c3:before{
+    background:#4D4038;
+}
+.seperator.c4{
+    border-bottom: 1px solid #BAA892;   
+}
+.seperator.c4:before{
+    background:#BAA892;
+}
+.seperator.c5{
+    border-bottom: 1px solid #085C11;   
+}
+.seperator.c5:before{
+    background:#085C11;
+}
+.seperator.c6{
+    border-bottom: 1px solid #849E2A;   
+}
+.seperator.c6:before{
+    background:#849E2A;
+}
+.seperator.c7{
+    border-bottom: 1px solid #C3BE0B;   
+}
+.seperator.c7:before{
+    background:#C3BE0B;
+}
+.seperator.c8{
+    border-bottom: 1px solid #E9E45B;   
+}
+.seperator.c8:before{
+    background:#E9E45B;
+}
+.seperator.c9{
+    border-bottom: 1px solid #5B6870;   
+}
+.seperator.c9:before{
+    background:#5B6870;
+}
+.seperator.c10{
+    border-bottom: 1px solid #7CA6C0;   
+}
+.seperator.c10:before{
+    background:#7CA6C0;
+}
+.seperator.c11{
+    border-bottom: 1px solid #A3D6D7;   
+}
+.seperator.c11:before{
+    background:#A3D6D7;
+}
+.seperator.c12{
+    border-bottom: 1px solid #6B4536;   
+}
+.seperator.c12:before{
+    background:#6B4536;
+}
+.seperator.c13{
+    border-bottom: 1px solid #C76C14;   
+}
+.seperator.c13:before{
+    background:#C76C14;
+}
+.seperator.c14{
+    border-bottom: 1px solid #FF9B1A;   
+}
+.seperator.c14:before{
+    background:#FF9B1A;
+}
+.seperator.c15{
+    border-bottom: 1px solid #AD1F65;   
+}
+.seperator.c15:before{
+    background:#AD1F65;
+}
+.seperator.c16{
+    border-bottom: 1px solid #2EAF9B;   
+}
+.seperator.c16:before{
+    background:#2EAF9B;
+}
+.seperator.c17{
+    border-bottom: 1px solid #FFD100;   
+}
+.seperator.c17:before{
+    background:#FFD100;
+}
+a.fthcolor, a.fthcolor:hover, a.fthcolor:link, a.fthcolor:visited{color:#C28E0E !important;}
+
+#superstarextras p img{float:none;margin:0;}
+.c-white{color:#ffffff !important;}/*white*/
+.c-black{color:#000000 !important;}/*black*/
+.c-campus-gold{color:#C28E0E !important;}/*Campus Gold*/
+.c-coal-gray{color:#4d4038 !important;}/*Coal Gray*/
+.c-moon-gray{color:#baa892 !important;}/*Moon Dust Gray*/
+.c-land-green{color:#085c11 !important;}/*Land grant green*/
+.c-rossade-green{color:#849e2a !important;}/*rossade green*/
+.c-bog-green{color:#c3be0b !important;}/*celery bog green*/
+.c-springfest-green{color:#e9e45b !important;}/*spring fest green*/
+.c-evertrue-blue{color:#5b6870 !important;}/*ever true blue*/
+.c-slater-skyblue{color:#7ca6c0 !important;}/*slater sky blue*/
+.c-amelia-blue{color:#a3d6d7 !important;}/*amelia sky blue*/
+.c-oaken-brown{color:#6b4536 !important;}/*oaken bucket brown*/
+.c-belltower-brick{color:#c76c14 !important;}/*bell tower brick*/
+.c-mackey-orange{color:#ff9b1a !important;}/*mackey orange*/
+.c-pappys-purple{color:#ad1f65 !important;}/*pappys purple*/
+.c-fountainrun-teal{color:#2eaf9b !important;}/*fountian run teal*/
+.c-yellow-walk{color:#ffd100 !important;}/*yellow walk*/
+.c-test-color{color:#cccccc !important;}/*test*/
+
+/********************************************
+ADDITIONS FOR NEW MAJORS PAGE REDESIGN
+********************************************/
+/**********************
+FeaturedSpotlight
+**********************/
+.infocolumn{margin-top:15px;}
+.spotlightImg img {
+    float:left !important;
+	margin-left:0 !important;
+	margin-right: 15px !important;
+	border-radius: 10%;
+	width:65% !important;
+}
+
+.boxImage img{
+	margin-bottom: 5px !important;
+	width: 100% !important;
+	height: auto !important;
+}
+.majorVid {
+position: initial;
+}
+
+.imgCaption .divider
+{
+	display: block;
+	clear: both;
+    width: 30%;
+    height: 7px;
+    margin: 7px auto;
+	background-color:#5B6870;
+}
+
+.imgContainer{
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		height: 275px;
+	position: relative;
+	z-index: 1;
+}
+.imgCaption {
+	padding: 0 10px;
+	background: rgba(255, 255, 255, 0.85);
+	position: relative;
+	z-index: 1;
+    font-weight: 400;
+
+}
+.caption_readmore {
+    width: 60%;
+    border: 1px solid black;
+    margin:10px auto;
+}
+
+.full-width-bar {
+	position: relative;
+	overflow:hidden;
+	margin: 0 -9999rem;
+  /* add back negative margin value */
+	padding: 2.5rem 9999rem;
+	background-image: url("https://cla.purdue.edu/images/pageBanners/BeeringHall1533.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.feature_spot .shading{
+	position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.6);
+    background-repeat: repeat;
+}
+
+/**********************
+Description
+**********************/
+
+.description {
+margin: 20px auto;
+}
+
+/**********************
+ApplyBar
+**********************/
+@media only screen and (max-width:767px){
+.featuredlink a {
+font-size: inherit;
+}
+}
+
+.featurelink{padding:30px; font-size:1.75em;text-align:center;color:#000;font-family: 'archivoNarrow',"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: 700; text-align: center;
+}
+.featurelink .divider {display: block; width: 50%;max-width: 50px; height: 7px; margin: 15px auto 0; background-color: #000;}
+.featurelink a{color:#373737; font-weight:400; text-decoration:none;}
+.featurelink .icon .fa{font-size:80px;margin-bottom:10px;}
+.featurelink .icon {margin: 0 0 30px;}
+
+.applyBar {
+background-color: #A3D6D7;
+background-image: none;
+padding-top: .1rem;
+padding-bottom: .1rem;
+}
+
+.applyBar .featurelink .icon .fa {
+font-size: 60px;
+}
+.applyBar .featurelink {
+padding: 15px 30px;
+font-size: 1.55em;
+}
+
+.applyBar .featurelink a:hover {
+color: white;
+}
+
+/**********************
+TabbedBoxes
+**********************/
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  display: none;
+  padding: 100px 20px;
+}
+
+button.buttonpanel {
+display: none;
+}
+
+.boxes .divider
+{
+    display: block;
+	clear: both;
+    width: 30%;
+    height: 7px;
+    margin: 7px auto;
+}
+
+.salary {padding: 0 !important;}
+.salary  .icon{color: #5b6870;}
+.salary  .divider{background-color:#5b6870;}
+
+.careercenter .icon{color: #6E99B4;}
+.careercenter .divider{background-color:#6E99B4;}
+
+.company  .icon{color: #ffd100;}
+.company .divider{background-color:#ffd100;}
+
+.graduate .icon{color: #849e2a;}
+.graduate .divider{background-color:#849e2a;}
+
+.subFeature {
+    font-size: .8em;
+    line-height: 1.5;
+}
+
+.subdivider1,
+.subdivider2,
+.subdivider3 {
+	display: block;
+	clear: both;
+    width: 90%;
+    height: 5px;
+    margin: 7px auto;
+}
+
+.link1 .divider,
+.subdivider1{background-color:#29A592;}
+.link2 .divider,
+.subdivider2{background-color:#FF9B1A;}
+.link3 .divider,
+.subdivider3{background-color:#FFD100;}
+
+
+.link1:hover .divider,
+.link2:hover .divider,
+.link3:hover .divider
+{
+	width:50%;
+}
+
+img.boximg{
+	width: 100%;
+	height: auto;
+	margin-bottom: 5px !important;
+}
+
+.topname{
+	font-family: 'archivoNarrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.box_highlights {
+font-weight: 400;
+}
+
+.careercenter .subFeature a {
+    text-decoration: underline;
+}
+
+.careercenter .subFeature a:hover {
+    text-decoration: none;
+}
+.salary h4{
+    font-size:2.3em;
+}
+@media only screen and (max-width: 767px){
+    .salary h4 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 500px) {
+    button.buttonpanel{
+        display:block;
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        margin: 0 0 0 -5%;
+        padding: 12px 0;
+        width: 110%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+    .boxpanel{
+      margin-bottom: 0px;
+    }
+    .buttonpanel h3 {
+    font-size: 25px;
+    }
+    .panel1 {border-bottom: 3px solid #29A592 !important;}
+    .panel2 {border-bottom: 3px solid #FF9B1A !important;}
+    .panel3 {border-bottom: 3px solid #FFD100 !important;}
+    
+    .subdivider1, .subdivider2, .subdivider3 {
+      width: 100%;
+    }
+    
+    /* Style the boxpanel. Note: hidden by default */
+    
+    div.boxpanel {
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;  	
+    }
+    
+    button.buttonpanel.active, button.buttonpanel:hover {
+    /*add any hover effects here, currently none */
+    }
+    
+    button.buttonpanel:before {
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 12px;
+        color: #111;
+        float:right;
+    }
+    
+    button.buttonpanel.active:before {    
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
+    }
+    
+    .box_row,
+    .boxtitle,
+    .panelhide {
+    display: none;
+    }
+    
+    .boxcontent {display: block !important;}
+}
+
+
+/**********************
+PlansOfStudy
+**********************/

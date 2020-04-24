@@ -1,37 +1,56 @@
 0. Programming Fundamentals
 0. Online Education Strategies
+    // Jun. 18th
     // 1. College Algebra
     // 1. Introduction to statistics
     // 1. Analysis Of Algorithms
     // 1. Programming I
-
+    // Sep. 5th
     // 2. Discrete Math
     // 2. Programming II
     // 2. Calculus
     // 2. Statistical inference
-
+    // Nov. 14th
     // 3. Comparative Programming Languages
     // 3. Data Mining & Machine Learning
     // 3. Data Structures
     // 3. Computer Systems
-
+    // Jan. 30th 2021
     // 4. Artificial Intelligence
     // 4. Software Engineering I
     // 4. Communications & Networking
     // 4. Databases I
-
+    // Apr. 9th. 2021
     // 5. Operating Systems I
     // 5. Databases II
     // 5. Software Engineering II
     // 5. Advanced Networking & Security
-
+    // Jun. 18th 2021
     // 6. Operating Systems II
     // 6. Computer Graphics
     // 6. Information Retrieval
     // 6. Web Programming I
-
+    // Sep. 5th 2021
     // 7. Web Programming II
     // 7. Mobile Applications
+    // 7. Introduction To Biology
+    // Nov. 14th 2021
+    // 8. World Literature
+    // 8. Biology I
+    // 8. Human Anatomy & Physiology
+    // Jan. 30th 2022
+    // 9. Biology II
+    // 9. Infectious Disease
+    // 9. Nutrition
+    // Apr. 9th 2022
+    // 10. Genetics
+    // 10. Introduction To Psychology
+    // 10. Introduction To Philosophy
+    // Jun. 18th 2022
+    // 11. Introduction To Sociology
+    // 11. Introduction To Environmental Studies
+    // 11. Biostatistics
+    // End Aug. 19th
 2. Calculus
 2. Statistical inference
 3. Programming I
@@ -70,8 +89,8 @@ Courses I'm Considering:
     Introduction To Philosophy
     Introduction To Sociology
     Introduction To Environmental Studies
-    Basic Accounting
-      Biostatistics
+    Biostatistics
+      Basic Accounting
       Macroeconomics
       Personal Finance
         Greek & Roman Civilization

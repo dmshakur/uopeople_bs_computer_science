@@ -50,7 +50,7 @@
     // 11. Introduction To Sociology
     // 11. Introduction To Environmental Studies
     // 11. Biostatistics
-    // End Aug. 19th
+    // End Aug. 19th 2022
 2. Calculus
 2. Statistical inference
 3. Programming I

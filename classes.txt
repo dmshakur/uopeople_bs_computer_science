@@ -3,9 +3,10 @@
     // Jun. 18th
     // 1. College Algebra
     // 1. Introduction to statistics
-    // 1. Analysis Of Algorithms
+    // 3. Data Structures
     // 1. Programming I
     // Sep. 5th
+    // 1. Analysis Of Algorithms
     // 2. Discrete Math
     // 2. Programming II
     // 2. Calculus
@@ -13,22 +14,21 @@
     // Nov. 14th
     // 3. Comparative Programming Languages
     // 3. Data Mining & Machine Learning
-    // 3. Data Structures
-    // 3. Computer Systems
+    // 6. Information Retrieval
     // Jan. 30th 2021
+    // 3. Computer Systems
     // 4. Artificial Intelligence
-    // 4. Software Engineering I
     // 4. Communications & Networking
     // 4. Databases I
     // Apr. 9th. 2021
+    // 4. Software Engineering I
     // 5. Operating Systems I
     // 5. Databases II
-    // 5. Software Engineering II
     // 5. Advanced Networking & Security
     // Jun. 18th 2021
+    // 5. Software Engineering II
     // 6. Operating Systems II
     // 6. Computer Graphics
-    // 6. Information Retrieval
     // 6. Web Programming I
     // Sep. 5th 2021
     // 7. Web Programming II
@@ -55,11 +55,11 @@
 2. Statistical inference
 3. Programming I
 3. Discrete Mathematics
-4. Comparative Programming Languages // Requires Programming I & II
-4. Analysis Of Algorithms
+4. Comparative Programming Languages
+4. Analysis Of Algorithms |NR|
 5. Programming II
 5. Data Mining & Machine Learning
-6. Artificial Intelligence
+6. Artificial Intelligence |NR|
 6. Data Structures
 7. Computer Systems
 7. Communications and Networking
@@ -67,38 +67,84 @@
 8. Operating Systems I
 9. Databases II
 9. Operating Systems II
-10. Information Retrieval
+10. Information Retrieval |NR|
 10. Software Engineering I
-11. Software Engineering II
-11. Advanced Networking & Data Security
-12. Computer Graphics
+11. Software Engineering II |NR|--
+11. Advanced Networking & Data Security |NR|
+12. Computer Graphics |NR|--
 12. Web Programming I
 13. Web Programming II
-13. Mobile Applications
+13. Mobile Applications |NR|--
+28 Courses: $2800 + $60 app fee = $2860
 
 Courses I'm Considering:
+    --- (9, +2 for bach) AHS $900 + $200 = $1100
+    1. Introduction To Biology |NR|--
+    2. Biology I
+    3. Biology II
+    4. Human Anatomy & Physiology
+    5. Infectious disease
+    6. Nutrition
+    7. Genetics (required for bach. h.s.)
+    8. Introduction to health psychology
+    9. Community and public health I
+    10. Community and public health II
+    11. Biostatistics (required for bach. h.s.)
+    --- (10) ABA $1000
+    12. Principles of business management
+    13. Basic accounting
+    14. Microeconomics
+    15. Macroeconomic
+    16. Business communications
+    17. Principles of marketing
+    18. E-commerce
+    19. Principles of finance I
+    20. Personal finance
+    21. Multinational management
+    --- (5, -2 in assoc) BHS $700 - $200 = $500
+    22. Epidemiology
+    23. Human development in a global perspective
+    24. Internship
+    25. Psychopathology and mental health
+    26. Health & policy management
+    --- (7) BBA $700
+    27. entrepreneurship I
+    28. Business law and ethics
+    29. Business and society
+    30. Organizational behavior
+    31. Business policy and strategy
+    32. leadership
+    33. Quality management
+    --- (7) MBA $1400
+    34. Managerial accounting
+    35. Financial management
+    36. Marketing management
+    37. Organizational theory and behavior
+    38. Management information systems and technology
+    39. Operations management
+    40. Strategic decision making and management
+    --- Extra BHS (NI) $100
+    41. Introduction to communities that care
+    --- Extra BBA (NI) $600
+    42. Financial accounting
+    43. Managerial accounting
+    44. Entrepreneurship II ( ex )
+    45. Business behavior
+    46. Principles of finance II
+    47. Strategic management
+    --- Extra MBA (NI) $500
+    48. Managing in the global industry
+    49. Leading in todays dynamic economy
+    50. Human resource management
+    51. Managing projects and programs
+    52. Management capstone
+    ---
     World Literature
-    Introduction To Biology
-    Biology I
-    Biology II
-    Human Anatomy & Physiology
-    Infectious Disease
-    Nutrition
-    Genetics
-    Introduction To Psychology
     Introduction To Philosophy
     Introduction To Sociology
-    Introduction To Environmental Studies
-    Biostatistics
-      Basic Accounting
-      Macroeconomics
-      Personal Finance
-        Greek & Roman Civilization
-        E-Commerce
-        Financial Accounting
-        Microeconomics
-        Principles Of Marketing
-19 Total
+$7160 BCS, AHS, MBA (not including proctor_u fees) 3.35 years 40 months
+$0 BB (Biochemistry, ASU, free with uber eats deliveries)
+
 
 3 Credits Per Course 28 Courses = 84 Credits
 Credits Needed To Graduate: 120

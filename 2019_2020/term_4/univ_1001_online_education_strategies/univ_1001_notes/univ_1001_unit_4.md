@@ -242,6 +242,12 @@ In short critical thinking is more than understanding something - it involves ev
 It's a willingness and ability to question everything.
 
 ## College success, chapter 3: Thinking about thought
+#### Source
+Retrieved from: https://www.teachthought.com/critical-thinking/48-critical-thinking-questions-any-content-area/
+#### Author
+(University of Minnesota)
+#### Release time
+2015
 
 #### Where are you now?
 Assess your present knowledge and attitudes.
@@ -305,7 +311,7 @@ Identify in the past weeks of school work where and how you used the previously 
     * Similar to the Understanding section, in order to understand things like machine learning and deep learning libraries, I simply use them and apply the knowledge. Trying things out increases ability on a subject.
 4. Analyzing:
     * I use this whenever I debug code I write. I will write a program or script, get an error message and have to work my way through the code and find what went wrong and how to fix it. I also use this skill when working with data and how best to process it and use it to achieve the goal of making accurate predictions.
-5. Evaluating:
+5. Evaluating (evaluating):
     * I do this when the best course of action in my life and education. Which requires a great deal of effort and thought, as there are many possible roads and combinations of paths that can be taken. One must ensure that the right paths are taken, with the right amount of time and effort spent on each.
 6. Creating:
     * I don't use this as much. I will use it however when writing code, such as when I wrote a C++ program of a neural network. I had to identify how to use my knowledge on neural networks and create one that could process data and come out with a prediction that was useful.
@@ -319,10 +325,190 @@ Identify in the past weeks of school work where and how you used the previously 
     * Apply, articulate, change, chart, choose, collect, compute, control, demonstrate, determine, do, download,dramatize, imitate, implement, interview, install (as in software), participate, prepare, produce, provide, report,role-play, run (software), select, share, show, solve, transfer, use
 4. Analyzing:
     * Analyze, break down, characterize, classify, compare, contrast, debate, deduce, diagram, differentiate,discriminate, distinguish, examine, infer, link, outline, relate, research, reverse-engineer, separate, subdivide, tag
-5. Evaluating:
-    * Appraise, argue, assess, beta test, choose, collaborate, compare, contrast, conclude, critique, criticize, decide,defend, “friend/de-friend,” evaluate, judge, justify, network, post, predict, prioritize, prove, rank, rate, review,select, support
+5. Evaluating (evaluating):
+    * Appraise, argue, assess, beta test, choose, collaborate, compare, contrast, conclude, critique, criticize, decide, defend, “friend/de-friend,” evaluate, judge, justify, network, post, predict, prioritize, prove, rank, rate, review, select, support
 6. Creating:
-    * Adapt, animate, blog, combine, compose, construct, create, design, develop, devise, film, formulate, integrate,invent, make, model, modify, organize, perform, plan, podcast, produce, program, propose, rearrange, remix,revise, rewrite, structure
+    * Adapt, animate, blog, combine, compose, construct, create, design, develop, devise, film, formulate, integrate, invent, make, model, modify, organize, perform, plan, podcast, produce, program, propose, rearrange, remix, revise, rewrite, structure
 
 Preparing for class requires you to analyze what you know and what you need to learn. 
 
+### 3.2 It's critical
+In todays environment where there is a wealth of information at our fingertips, it isn't too critical to know a great deal of information. The challenge is often filtering it with critical thinking skills.
+
+Critical thinking is the ability to discover an idea, a set of beliefs, a claim, or an argument.It requires logic and reasoning to evaluate information to make a decision or reach a conclusion.
+
+Critical thinking is:
+* A foundation for effective communication.
+* The principal skill used in effective decision making.
+* At the core of creating new knowledge.
+* A way to uncover bias and prejudices.
+
+#### The critical thinking process
+Critical thinking is nothing more than asking the right questions to understand a problem and gathering data to make a decision on a problem.
+
+Understanding what problem or issue you are really considering is important. Often times we will take up a side on something without realizing that it's not the issue we care about but some other secondary effect accomplishing dominance can have.
+
+Being able to identify different options and view points is important for critical thinking. Doing so will enable you to examine possible outcomes and see which decision could be the best for you. Thinking about the consequences of each is also important. Make sure that you have all the information for each option, and get it if you don't. Keep an open mind and don't dismiss supporting information on any position until you evaluate it carefully.
+
+Determine how good your information is. Be on the lookout for bias, fallacies and logical errors in your thinking and evidence. Learn to identify you own weaknesses in thinking.
+
+#### Fallacies
+1. Generalizations:
+    * Description: Making assumptions about a whole group of people on an inadequate sample.
+    * Example 1: Engineering students are nerds.
+    * Example 2: My economics class is boring, and my friend says her economic class is boring too - therefore all economics classes are boring.
+    * How to avoid it in your own thinking: What kind of sample are you using? Is it large enough to support the conclusions by using the word "some" or "many".
+2. False cause:
+    * Description: Drawing improper conclusions through sequencing. If A comes before B, then A causes B.
+    * Example: I studied biology last term, and this term I'm taking organic chem, which is very confusing. Biology makes chemistry confusing.
+    * How to avoid: When making casual statements, be sure you can explain the process through which A causes B beyond their mere sequences.
+3. Personalizations:
+    * Description: Also known by their latin names (ad hominem, or "against the man" and tu quoque, or "you too"). Inserting personalities inappropriately. Into an argument. Common political arguments.
+    * Example: Against the man: I won't support senator smith's education bill. He's had a mistress and marital problems.
+    * Description: How to avoid: Focus on the merits and supporting data of an argument, not on the personality or behavior of the people making the arguments.
+4. Everyone does it:
+    * Also known by its latin name (ad populum, or "against many"). Justifying an issue based solely on the number of people involved.
+    * Example 1: You too: A parent explains the evidence of risks of binge drinking. The child rejects the arguments saying, "When you were my age, you drank too".
+    * Example 2: It's healthy to drink only soda, millions of American kids do.
+    * How to avoid: The popular position is not always the right one. Be wary of arguments that rely exclusively on one set of numbers.
+5. Appealing to authority:
+    * Description: Using an endorsement from someone as a primary reason for supporting a point of view.
+    * Example 1: We should oppose higher taxes, curt shilling does.
+    * Example 2: Pitcher curt shilling may be credible authority on baseball, but is he an authority on taxes.
+    * How to avoid: Quoting authorities is a valuable tool to build an argument, make sure the authorities you quote are truly subject matter experts on the issue you are discussing.
+6. Weak analogy:
+    * Description: Using irrelevant similarities in two object to draw a conclusion.
+    * Example: Cars and motorcycles are both driven at high speeds on the highway. Car drivers aren't required to wear helmets, so motorcycle riders shouldn't have to either.
+    * How to avoid: You can draw an analogy between just about any two objects or ideas. If you are using an analogy, make sure you identify the properties. (In the example, the motorcycle does not provide protection to the rider, but the car does. Equating the two vehicles based on traveling speed is not relevant to the argument).
+7. False dichotomy:
+    * Description: Setting up a situation in which it looks like there are only two possible options. If one option is discredited, the other must be accepted.
+    * Example: The classic example here is "America, love it or leave it".
+    * How to avoid: Examine your own thinking. Are there really only two options? LOok for the third option. If you were asked to develop a compromise between the two positions, what would it look like? What would the strengths and weaknesses be?
+
+Common critical thinking situations
+* Personal choices.
+* Reading, listening, note taking, studying.
+* Research papers.
+* Essay questions on exams.
+
+#### Tips for critical thinking
+* Consider all points of view, considering more than two and looking for grey areas.
+* Keep an open mind.
+* Answer three questions about your supporting:
+    1. Is it enough support?
+    2. Is it the right support?
+    3. Is it credible?
+* Look for evidence that contradicts your view point. Pretend to disagree with it. What parts of your argument are weak. Do you have supporting facts to overcome that evidence?
+* Create a set of criteria to evaluate the strength of information you wan to use to support your argument. Ask questions like these.
+* List your main points and the evidence you have to support it.
+* Make sure your opinions are supported by facts and not opinions.
+* Writers will often rely on certain types of arguments, so be on the look out for fallacies you use habitually.
+* Be careful with broad generalizations and absolute words.
+
+Determine where your information came from and whether or not it is a credible source.
+
+Critical thinking is evaluating the strengths of your arguments, data, and information.
+
+### 3.3 Searching for "Aha!"
+Learning objectives
+1. Use creative thinking
+2. Understand the difference between creative thinking and free-form thinking.
+3. Practice guidelines for creating ideas.
+4. Use rules and directions to create effectively.
+5. Understand group creativity.
+
+Creative thinking is the ability to look at things from a new perspective, and come up with new solutions.
+
+#### Tips for Creative thinking
+* Feed your curiosity.
+    * Creativity is often about rearranging known ideas as it is about creating a completely known concept.
+* Develop your flexibility.
+    * There is often more than one right answer, don't think that theres only one.
+* Combine old ideas in new ways.
+    * Think outside the box train yourself to think, think what is the most ridiculous solution I can come up with. Or how would you solve a problem when transported to a time such as the 1930s.
+* Think metaphorically.
+    * Thinking with metaphors takes practice. Observe how metaphors are used throughout communication and think about why those metaphors are effective.
+* Ask.
+    * A creative thinker always questions the way things are. Get in the habit of asking questions, lots of questions.
+
+#### Key takeaways
+* Creative thinking is a requirement for success.
+* Creative thinkings is a deliberate process that can be learned and practiced.
+* Important virtues of a creative person:
+    * Curiosity.
+    * Flexibility.
+    * Looking for more than one right answer.
+    * Combining things in new ways.
+    * Thinking metaphorically.
+    * Questioning the way things are.
+
+#### A metaphor for life (exercise)
+Life is like an ultra marathon, it starts out fun, but the rest is filled with pain and suffering and with moments of fun and joy here and there.
+#### What if we had eyes on the back of our heads
+It would change everything. Wars would be fought differently, the element of surprise would be significantly hampered if we had such a large cone (or cones) of vision. In general it would probably be much harder to get the jump on anyone. Out brains would probably be under a lot more stress from all the extra input and be bigger. We would wear out hair differently, bald would be common for sure.
+
+### 3.4 Problem solving and decision making
+Learning objectives
+1. Learn to understand the problem
+2. Learn to combine thinking and critical thinking to solve problems
+3. Practice problem solving in a group
+
+Most of your college life will be spent solving problems, which require time and effort in order to come up with a solution. There are a few basic steps you can take to find the solution.
+1. Define the problem:
+    * Use analytical skills. Find characteristics.
+2. Narrow the problem:
+    * Break the problem down into individual issues. Find noise in the data and get rid of it.
+3. Generate possible solutions:
+    * Come up with several different answers to your problem. Maybe combining more than one to create a better solution, a compromise of solutions.
+4. Choose the best solution:
+    * Look at the pros and cons of your solution(s).
+
+#### Decisions, decisions
+It is important to know who will be making the final decisions in any given situation, and helpful to understand the principles of decision making when making them yourself. The person making decisions is usually the person implementing the solution. Input is sought or given due to experience or expertise, and should be fact based not opinion based. A decision maker should be clearly defined upfront so there is an understanding of that process, and that no one's work is influenced by that. Approval for decisions is usually based on resources, legality, history or policy.
+
+#### Key takeaways
+* Effective problem solving involves critical and creative thinking.
+* Brainstorming is often a good method for generating solutions.
+* Understanding the difference between the roles of deciding and providing input makes for better decisions.
+
+#### Exercise
+1. Define the problem:
+    * Time management.
+    * Where he wants his skill level to be.
+    * Where he wants to be in his career.
+    * Being there for his child in the beginning of its life.
+    * Being there for his wife during child bearing
+    * Putting too much pressure on the wife to raise the child
+2. Narrow the problem:
+    * Time management:
+        * Being able to juggle caring for his family getting his degree and taking care of his responsibilities could be difficult. Which in turn could lead to increased levels of stress and put strain on him and his relationships as well as school work.
+    * Where he wants his skill level to be:
+        * If he doesn't get a bachelors degree he will not be as skilled a worker if he just gets an associates degree. He will have a smaller amount of knowledge and be less prepared to handle more complicated tasks. 
+    * Where he wants to be in his career:
+        * He will be more qualified to serve in a position as a video game designer with a better education. Having only an associates degree may lead to a greater amount of closed doors after school when looking for a job.
+    * Being there for his child in the beginning of its life:
+        * I'm sure it is quite important that he be there at the beginning of the child's life to support it and his wife. Increased strength of relationship without degree and decreased strength of relationship with degree.
+    * Putting too much pressure on the wife to raise the child:
+        * Almost the reverse of time management. In this situation the mother will be more stressed as she will likely have to spend more time taking care of the child, and will likely exhibit symptoms that indicate a strain in the relationship.
+3. Generate solutions:
+    * Do it. While your child is still very young focus on getting that bachelor's degree so you don't have to stress about it later. Your child almost certainly won't remember the first 1-3 years of his life, including being in the womb. The better degree will serve you well in the future. The main drawback I see is that he won't be there as much for his wife when she is pregnant and the first few months to year or so of the babies life, which would be stressful for the wife.
+    * Take a fewer amount of classes. Take a smaller amount of classes per term in order to decrease the amount of time spent in school and increase the amount of time spent helping raise your child. This way you can do both and get the benefits of both with little disadvantage, in family relationships and in his career. The only drawback I see is that it will take longer, I wouldn't assume it'd be significantly longer.
+    * Take online classes. Taking online classes instead of going to a physical school saves a lot of time and effort since you can take your classes from pretty much anywhere. With this solution you can even be with your family and work. Although, a drawback to that is that it could lead to a greater amount of distraction and decreased focus. This will likely have the same benefits as the previous entry.
+    * Don't go. You get to focus on your career and take care of your family. You will probably not get as good a job, I would think the gap in pay would be significant in a starting role with an associates vs a bachelor' degree. 
+    * Get it later. Benefits are the same as the previous entry. The drawbacks are that you will have to spend time away from your family in what may be a crucial time in the child's development, or if it's late enough and the child is in school this may have little to no impact at all on being there for his family. You also may not need it at that point and probably wouldn't be as far in his career if he just got his degree.
+4. Choose the right approach
+    * I think that the best approach is online school. Don't put off education and take care of your family. The only other two options I would consider are taking longer to get the degree, or taking fewer classes. Not getting the degree or getting it later doesn't seem like a good idea to me. But depending on different variables in their situation like if the wife will work, when will school start and be over, and what they might have to give up for him getting his education. Not enough information is provided to make a real decision, but ultimately I believe that online education is the best way to go.
+
+### 3.5 Chapter activities
+1. What are the six levels of the bloom taxonomy?
+2. Which thinking skill is most important for short answer quizzes? why?
+3. List five verbs that describe the application level of thought.
+4. What thinking skills are you using if you are blogging? How do you use each one?
+5. What is critical thinking?
+6. Why is it important to you to pose some questions about the source of the material you read? What kinds of questions should you ask?
+7. What is a logical fallacy?
+8. LIst six words that signal a broad generalization and a recommended alternative that would resolve that problem of each.
+9. What are some ways in which you can feed your curiosity?
+10. Why is brainstorming more effective at generating new ideas than individual work?
+11. List the four steps of problem solving.
+12 How do you use critical thinking in solving problems

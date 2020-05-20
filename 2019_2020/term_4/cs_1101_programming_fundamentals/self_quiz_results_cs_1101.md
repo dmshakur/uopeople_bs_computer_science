@@ -1,5 +1,5 @@
+
 # Self Quiz Results
-## CS 1101
 
 #### Unit 1
 Tries: 1
@@ -18,5 +18,9 @@ Tries: 3
 100%
 
 #### Unit 5
+Tries: 3
+100%
+
+### Unit 6
 Tries: 3
 100%

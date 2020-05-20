@@ -8,7 +8,7 @@ Retrieved from: https://www.teachthought.com/critical-thinking/48-critical-think
 #### Release time
 2015
 
-## Chapter 4 College Success: Listening, taking notes and remembering
+# Chapter 4 College Success: Listening, taking notes and remembering
 
 #### Expectations: High school versus College
 1. Your teacher will guide you | You are expected to take responsibility for your academic success.
@@ -68,6 +68,8 @@ Principles of active listening:
 3. If you are unsure whether or not you understand ask questions and don't make any assumptions.
 4. Look for non-verbal signals such as facial expressions and body language, signifying things such as context.
 5. Look for requests in things that someone might say, such as when someone portrays their dislikes for a particular subject, which could mean that they want help with it.
+
+
 
 ## Section 4.4: Got notes?
 ### Learning objectives

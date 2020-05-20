@@ -3,24 +3,25 @@
     // Jun. 18th
     // 1. College Algebra
     // 1. Introduction to statistics
-    // 3. Data Structures
-    // 1. Programming I
     // Sep. 5th
-    // 1. Analysis Of Algorithms
-    // 2. Discrete Math
-    // 2. Programming II
+    // 2. Programming I
     // 2. Calculus
-    // 2. Statistical inference
     // Nov. 14th
-    // 3. Comparative Programming Languages
-    // 3. Data Mining & Machine Learning
-    // 6. Information Retrieval
+    // 3. Programming II
+    // 3. Discrete Math
     // Jan. 30th 2021
+    // 4. Comparative Programming Languages
+    // 4. Statistical inference
+    // Apr. 9th. 2021
+    // 5. Data Mining & Machine Learning
+    // 5. Information Retrieval
+
+    // 2. Data Structures
+    // 1. Analysis Of Algorithms
     // 3. Computer Systems
     // 4. Artificial Intelligence
     // 4. Communications & Networking
     // 4. Databases I
-    // Apr. 9th. 2021
     // 4. Software Engineering I
     // 5. Operating Systems I
     // 5. Databases II

@@ -1,12 +1,12 @@
 0. Programming Fundamentals
 0. Online Education Strategies
-    // Jun. 18th
+    // Jun. 18th 2020
     // 1. College Algebra
     // 1. Introduction to statistics
-    // Sep. 5th
+    // Sep. 5th 2020
     // 2. Programming I
     // 2. Calculus
-    // Nov. 14th
+    // Nov. 14th 2020
     // 3. Programming II
     // 3. Discrete Math
     // Jan. 30th 2021
@@ -15,18 +15,18 @@
     // Apr. 9th. 2021
     // 5. Data Mining & Machine Learning
     // 5. Information Retrieval
+    // Jun. 18th 2021
+    // 6. Artificial Intelligence
+    // 6. Communications & Networking
 
     // 2. Data Structures
-    // 1. Analysis Of Algorithms
     // 3. Computer Systems
-    // 4. Artificial Intelligence
-    // 4. Communications & Networking
+    // 1. Analysis Of Algorithms
     // 4. Databases I
     // 4. Software Engineering I
     // 5. Operating Systems I
     // 5. Databases II
     // 5. Advanced Networking & Security
-    // Jun. 18th 2021
     // 5. Software Engineering II
     // 6. Operating Systems II
     // 6. Computer Graphics
@@ -36,7 +36,7 @@
     // 7. Mobile Applications
     // 7. Introduction To Biology
     // Nov. 14th 2021
-    // 8. World Literature
+    // 8. World Literature`
     // 8. Biology I
     // 8. Human Anatomy & Physiology
     // Jan. 30th 2022
@@ -70,13 +70,13 @@
 9. Operating Systems II
 10. Information Retrieval |NR|
 10. Software Engineering I
-11. Software Engineering II |NR|--
+11. Software Engineering II |NR|
 11. Advanced Networking & Data Security |NR|
-12. Computer Graphics |NR|--
-12. Web Programming I
-13. Web Programming II
-13. Mobile Applications |NR|--
-28 Courses: $2800 + $60 app fee = $2860
+12. Computer Graphics |NR| *maybe
+12. Web Programming I *
+13. Web Programming II *
+13. Mobile Applications |NR| *
+28. Courses: $2800 + $60 app fee = $2860
 
 Courses I'm Considering:
     --- (9, +2 for bach) AHS $900 + $200 = $1100

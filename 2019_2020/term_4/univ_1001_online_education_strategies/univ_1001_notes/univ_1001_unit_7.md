@@ -151,6 +151,30 @@ Plan ahead when studying in environments that could be intrusive.
 The optimal time for you to study may vary depending on the time of day. Do you function better staying up late or getting up early? Logging how you spend your time for an entire week may surprise you with how you spend your time.
 
 #### Time management
-For every hour in the classroom college students should on average study for about two hours. The goal of time management is that one should be able to get everything they need done, done, and still be able to find time to do other things they want to do.
+For every hour in the classroom college students should on average study for about two hours. The goal of time management is that one should be able to get everything they need done, done, and still be able to find time to do other things they want to do. If you have too many responsibilities then it is better to lighten up your educational workload than to run the risk of failure.
 
+### Time management strategies for success
+* Mentally prepare your self for success by telling yourself that you'll succeed.
+* Complete your tasks at the best time of day when they are most fit to be completed.
+* If you are faced with a large project, break it up into smaller chunks.
+* When faced with more than one task complete the most important one first.
+* If you are having trouble getting started with a more difficult task, complete an easy one to help build momentum.
+* Talk to someone if you are having trouble understanding the material.
+* Prevent distractions and don't multi-task, in order to stay focused on your work.
+* Give yourself a reward for a job well done.
+* Don't let others get in the way of your education and don't let people distract you from your studies.
+* Have a life.
+* Use a calendar or to-do list.
 
+#### Battling Procrastination
+Procrastination is usually a habit. Schedule times for studying. If you are thinking negatively, turn it into a positive instead, or think of something that is even worse to motivate you. Stress can cause procrastination. Studying with someone who is motivated may help. Keep a study journal to help identify what induces procrastination. get help from someone.
+
+#### Calendar planners and to-do lists
+Calendars and planners are an effective way to manage your time and ensure that you don't forget anything important. The more meticulous you are with your calendar/planner the easier it will be to be successful with managing your time.
+
+A to-do list can be very useful for keeping track of smaller tasks like writing emails and paying bills.
+
+Keep track of important dates relating to your coursework.
+
+#### Your daily to-do list
+Keeping a to-do list helps ensure that you won't forget tasks and make sure that they are finished. 

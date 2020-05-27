@@ -42,7 +42,6 @@ The most important areas in which I need to improve.
 * Build a GANs in Julia or Pytorch.
 * Go to the doctor.
 * Get quart containers.
-* Get more body wash and face wash.
 ##### Mid term goals:
 * Hunt my own meat.
 * Get a good job that pays enough to live the way I want to.

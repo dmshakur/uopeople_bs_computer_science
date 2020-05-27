@@ -7,7 +7,7 @@
 URL: https://business.tutsplus.com/tutorials/starbursting-how-to-use-brainstorming-questions-to-evaluate-ideas--cms-26952
 #### Author
 Lisa Jo Rudy
-### Release time
+#### Release time
 Jul. 28th, 2016
 
 ### How to Use Brainstorming Questions to Evaluate Ideas

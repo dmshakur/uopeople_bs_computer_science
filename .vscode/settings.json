@@ -1,0 +1,10 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "cSpell.enableFiletypes": [
+        "csv",
+        "julia",
+        "powershell"
+    ],
+    "cSpell.language": "en,en-US"
+}

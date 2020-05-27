@@ -1,0 +1,8 @@
+
+# Discussion Unit 7 UNIV 1001
+
+## Part 1:
+Stress management is essential for maintaining a happy and healthy life when involved in things like a college education. A college education can be challenging with its many deadlines, higher demands and expectations. If one is not careful and takes on too much work, burnout can happen quite easily. When dealing with high stress levels, I can approach the problem in different ways. The ones I use most often are, going for a run, sleeping, eating, and/or taking a break. I find the most effective method is to combine two or more for maximum effectiveness. However if I don't or can't for some reason then it will result in side effects that negatively impact my ability to work on projects and school work. So I make a point to regularly exercise, and sleep well throughout the week in order to avoid unnecessary issues.
+
+## Part 2:
+There are a lot of good techniques to relieve and mitigate stress my go-tos are sleep and running. Sleep helps recharge mental and physical energy. My other stress management technique, running, helps reset my mind and alleviate stress by stressing the body. With both techniques its important to be careful and engage in them at the right time and for the right length of time. Too much can have disadvantages, but less so with sleeping. Another stress management technique I would like to get better at is finishing the more difficult assignments before all others (Malik, 2015). At present I generally work my way from the small tasks on to the larger ones, and while it works I think that the inverse might be better.

@@ -92,7 +92,7 @@ Goals can shift and change over time. Larger goals should be a driving force beh
 
 Goals should be realistic, specific, have a time frame and you should really want to reach that goal.
 
-If you're doing something because of some outside force, for example seeking someone else's approval, you may want to rethink them.
+If you're doing something because of some outside force, for example seeking someone elses approval, you may want to rethink them.
 
 #### Priorities
 The question of prioritizing your goals with what you want to is not that you shouldn't do what you want, its that you should do it when you can. Be timely when you do things that are not a part of your responsibilities. A priority is what is most important at the moment. You will have time for everything when you manage your time well. Time management only work when you are dedicated and committed.
@@ -143,15 +143,6 @@ Choose a place to study that has a suitable environment. That place should be av
 
 #### The distractions of technology
 Multi-tasking with tech can lead to a decrease in attention spent on your studies. It takes longer to do anything if you're doing something else at the same time. Science has shown that people that shift from one thing to another quickly and often form pathways in the brain that lead to a decreased ability to focus on one thing.
-
-#### Family and roommate issues
-Plan ahead when studying in environments that could be intrusive.
-
-### 2.3 Organizing your time
-The optimal time for you to study may vary depending on the time of day. Do you function better staying up late or getting up early? Logging how you spend your time for an entire week may surprise you with how you spend your time.
-
-#### Time management
-For every hour in the classroom college students should on average study for about two hours. The goal of time management is that one should be able to get everything they need done, done, and still be able to find time to do other things they want to do. If you have too many responsibilities then it is better to lighten up your educational workload than to run the risk of failure.
 
 ### Time management strategies for success
 * Mentally prepare your self for success by telling yourself that you'll succeed.

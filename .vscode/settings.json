@@ -6,5 +6,8 @@
         "julia",
         "powershell"
     ],
-    "cSpell.language": "en,en-US"
+    "cSpell.language": "en,en-US",
+    "cSpell.words": [
+        "Tagine"
+    ]
 }

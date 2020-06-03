@@ -98,29 +98,15 @@ The most important areas in which I need to improve.
 2. Sometimes my roommate and the dogs I live with are loud and annoying.
 
 ### 6, Activity 2: Where does time go?
-1. Study for school
-    * 4 hours a day * 5 = 20 hours
-2. Study for courses outside of school, and other projects
-    * 6 hours a day * 7 = 42 hours
-3. Read
-    * 3 hours * 1 = 3 hours
-4. Cook, clean, eat, shower
-    * 3 hours a day * 7 = 21 hours
-5. Sleep
-    * 7 hours a day * 7 = 49 hours
-6. Wasting time
-    * 1.5 hours a day * 7 = 10.5 hours
-7. Shopping
-    * 3 hours * 1 = 3 hours
-8. Running
-    * 1 hour a day * 4 = 4 hours
-9. Research
-    * 2.5 hours a day * 7 = 17.5 hours
+1. Study, research and assignments
+    * 80 hours
+2. Necessary activities. sleeping, eating etc
+    * 68 hours
+3. Discretionary activities
+    * 20 hours
 ### 7, Activity 3: Where should your time go
-1. Looking over and taking notes for course material, more depending on classes
-    * 10 hours
-2. Time spent working on assignments
-    * 68 hours, 20 for school, 48 otherwise, depending on current classes
+1. Study, research and assignments
+    * 78 hours
 3. Work, internships etc
     * 15 hours
 4. Necessary activities. sleeping, eating etc

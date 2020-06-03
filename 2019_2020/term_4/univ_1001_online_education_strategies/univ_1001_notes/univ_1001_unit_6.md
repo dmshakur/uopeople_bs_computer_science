@@ -69,8 +69,6 @@ Principles of active listening:
 4. Look for non-verbal signals such as facial expressions and body language, signifying things such as context.
 5. Look for requests in things that someone might say, such as when someone portrays their dislikes for a particular subject, which could mean that they want help with it.
 
-
-
 ## Section 4.4: Got notes?
 ### Learning objectives
 * Explain why taking notes is important

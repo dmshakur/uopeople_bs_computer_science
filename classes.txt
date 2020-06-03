@@ -36,7 +36,7 @@
     // 7. Mobile Applications
     // 7. Introduction To Biology
     // Nov. 14th 2021
-    // 8. World Literature`
+    // 8. World Literature
     // 8. Biology I
     // 8. Human Anatomy & Physiology
     // Jan. 30th 2022

@@ -24,3 +24,11 @@ Tries: 2
 #### Unit 6
 Tries: 1
 100%
+
+#### Unit 7
+Tries: 1
+100%
+
+### Unit 8
+Tries: 1
+100%

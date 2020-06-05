@@ -23,23 +23,23 @@ The most important areas in which I need to improve.
 ## 3, Personal goals:
 ##### Short term goals:
 * Receive A.I. Engineer course certificate. COMPLETE
-* Finish course work for unit 7 UNIV 1001, and CS 1101.
+* Finish course work for unit 7 UNIV 1001, and CS 1101. COMPLETE
 * Finish UNIV 1001, and CS 1101.
 * Finish reading Julia documentation.
 * Finish Julia Scientific Programming Coursera course.
 * Pay rent. COMPLETE
-* Pay for UoPeople course tests.
+* Pay for UoPeople course tests. COMPLETE
 * Get new laptop.
 * Get new Path Projects clothes.
-* Make naans, rice and Tagine chicken.
-* Write cover letters for jobs, at least 3.
-* Make any necessary changes and touch ups to resume.
+* Make naans, rice and Tagine chicken. COMPLETE
+* Write cover letters for jobs, at least 3. COMPLETE
+* Make any necessary changes and touch ups to resume. SORT OF COMPLETE
 * Run every day I can.
-* Listen to health podcasts.
+* Listen to health podcasts. COMPLETING
 * Finish Deeplearning.AI Coursera course.
 * Get a job.
 * Build a reinforcement learning model, in Pytorch or Julia.
-* Build a GANs in Julia or Pytorch.
+* Build a GANs or auto-encoder in Julia or Pytorch.
 * Go to the doctor.
 * Get quart containers.
 ##### Mid term goals:

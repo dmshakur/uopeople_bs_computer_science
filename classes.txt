@@ -72,6 +72,7 @@
 10. Software Engineering I
 11. Software Engineering II |NR|
 11. Advanced Networking & Data Security |NR|
+
 12. Computer Graphics |NR| *maybe
 12. Web Programming I *
 13. Web Programming II *

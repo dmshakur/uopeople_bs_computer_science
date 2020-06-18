@@ -1,0 +1,4 @@
+
+# Discussion Assignment Unit 1 MATH 1280
+
+I have had no problems installing R on my machine. I use Debian 10 as my OS, which is a form of Linux. Linux installations are a bit more complicated than that of Windows, and I suspect but do now know, Mac OS. When installing R, you may want to ensure that you do not need any special permissions. Installing R was pretty easy, there are several ways to install R in Debian, I can't remember which route I went last night as I was installing another package called Docker, which was significantly more work. Getting R up and running was fairly simple, I like that you can run everything from the terminal. Running everything from the terminal is very nice.

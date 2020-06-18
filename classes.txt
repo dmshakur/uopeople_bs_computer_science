@@ -54,30 +54,47 @@
     // End Aug. 19th 2022
 2. Calculus
 2. Statistical inference
-3. Programming I
+    3. Programming I
 3. Discrete Mathematics
-4. Comparative Programming Languages
+    4. Comparative Programming Languages
 4. Analysis Of Algorithms |NR|
-5. Programming II
-5. Data Mining & Machine Learning
-6. Artificial Intelligence |NR|
-6. Data Structures
-7. Computer Systems
-7. Communications and Networking
+    5. Programming II
+    5. Data Mining & Machine Learning
+    6. Artificial Intelligence |NR|
+6. Data Structures REQUIRES PROGRAMMING II
+7. Computer Systems REQUIRES PROGRAMMING II
+7. Communications and Networking REQUIRES PROGRAMMING II
 8. Databases I
 8. Operating Systems I
 9. Databases II
 9. Operating Systems II
 10. Information Retrieval |NR|
-10. Software Engineering I
-11. Software Engineering II |NR|
-11. Advanced Networking & Data Security |NR|
+10. Software Engineering I REQUIRES PROGRAMMING II
+11. Software Engineering II |NR| REQUIRES PROGRAMMING II
+11. Advanced Networking & Data Security |NR| REQUIRES PROGRAMMING II
 
 12. Computer Graphics |NR| *maybe
 12. Web Programming I *
 13. Web Programming II *
 13. Mobile Applications |NR| *
 28. Courses: $2800 + $60 app fee = $2860
+
+Current plan for higher education:
+I will continue on with my education at UoPeople, but I will not pursue 
+the programming and data science related topics, since I study them with great
+freqency outside of school. After I have completed all of these classes I
+will attend an education at IUBH, a german school and pursue their BS in data
+science program, followed by the MS in A.I.
+
+2. College Algebra, Intro to Statistics
+3. Calculus, Programming I
+4. Inferential Statistics, Programming II
+5. Discrete Mathematics, Communications and networking
+6. Advanced networking and security, Computer systems
+7. Databases I, Operating systems I
+8. Databases II, Operating systems II
+9. Software Engineering I, Analysis of algorithms
+10. Software Engineering II, Data Structures
 
 Courses I'm Considering:
     --- (9, +2 for bach) AHS $900 + $200 = $1100

@@ -15,3 +15,12 @@
 [Importing/Reading Excel data into R using RStudio](https://www.youtube.com/watch?v=JYVWufSQ4OI&feature=emb_err_woyt)
 
 [Export data from R](https://www.youtube.com/watch?time_continue=1&v=WjpcbmcJjjM&feature=emb_logo)
+
+## Unit 2:
+[Variables and types of variables](https://www.youtube.com/watch?v=ZxV-kf0yBss&feature=emb_logo)
+
+[Create and work with vectors and matrices in R](https://www.youtube.com/watch?time_continue=150&v=2TcPAZOyV0U&feature=emb_logo)
+
+[Importing, checking and working with data in R](https://www.youtube.com/watch?v=U4-RnTW5dfw&feature=emb_logo)
+
+[Working with data in R](https://www.youtube.com/watch?v=1BcGnHwUT6k&feature=emb_logo)

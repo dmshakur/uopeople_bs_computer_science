@@ -56,7 +56,7 @@
 2. Statistical inference
     3. Programming I
 3. Discrete Mathematics
-    4. Comparative Programming Languages
+    4. Comparative Programming Languages REQUIRES PROGRAMMING II
 4. Analysis Of Algorithms |NR|
     5. Programming II
     5. Data Mining & Machine Learning
@@ -72,7 +72,6 @@
 10. Software Engineering I REQUIRES PROGRAMMING II
 11. Software Engineering II |NR| REQUIRES PROGRAMMING II
 11. Advanced Networking & Data Security |NR| REQUIRES PROGRAMMING II
-
 12. Computer Graphics |NR| *maybe
 12. Web Programming I *
 13. Web Programming II *
@@ -87,14 +86,14 @@ will attend an education at IUBH, a german school and pursue their BS in data
 science program, followed by the MS in A.I.
 
 2. College Algebra, Intro to Statistics
-3. Calculus, Programming I
-4. Inferential Statistics, Programming II
-5. Discrete Mathematics, Communications and networking
-6. Advanced networking and security, Computer systems
-7. Databases I, Operating systems I
-8. Databases II, Operating systems II
-9. Software Engineering I, Analysis of algorithms
-10. Software Engineering II, Data Structures
+3. Calculus, Inferential Statistics
+4. Programming I, Discrete Mathematics
+5. Programming II, Operating Systems I
+6. Communications and networking, Operating Systems II
+7. Databases I, Advanced networking and data security
+8. Databases II, Software Engineering I
+9. Software Engineering II, Data Structures
+10. Comparative programming languages, Analysis of Algorithms
 
 Courses I'm Considering:
     --- (9, +2 for bach) AHS $900 + $200 = $1100

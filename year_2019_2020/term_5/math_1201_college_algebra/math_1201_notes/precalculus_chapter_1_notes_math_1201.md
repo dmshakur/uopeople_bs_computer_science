@@ -817,7 +817,237 @@ When using function arithmetic you use their outputs for the operation.
 
 1. 12
 2. 50
-3. Domain: $x\neq0$
-4. Domain: $x\neq\{0,\}$
+3. Domain: $x\neq0$, simplification: $\frac{3-\frac{1}{x}-6x^2-2x}{x}$
+   * Note: For some reason you can take an simple equation like above and take the fraction which is $\frac{1}{x}$ and extend the fraction to every term there is.
+4. Domain: $x\neq\{0,\}$, simplification: $\frac{3-\frac{1}{x}}{6x^2-2x}$
+##### Solution for problem 4:
+1. $\frac{g(x)}{f(x)}$
+2. $\frac{3-\frac{1}{x}}{6x^2-2x}$
+3. $\frac{3-\frac{1}{x}}{6x^2-2x}*\frac{x}{x}$
+Simplifying compound fractions
+4. $\frac{(3-\frac{1}{x})x}{(6x^2-2x)x}$
+5. $\frac{3x-1}{(6x^2-2x)x}$
+6. $\frac{3x-1}{2x^2(3x-1)}$
+Factor? what is happening here?
+7. $\frac{1}{2x^2}$
 
-We must find the domain of a function before simplifying 
+
+We must find the domain of a function before simplifying otherwise we run the risk of not finding the true domain by canceling out parts of our equation that notify us of certain inclusions/exclusions within the domain.
+
+#### The difference quotient
+Given a function $f$, the difference quotient of $f$ is the expression:
+$$ \frac{f(x+h)-f(x)}{h} $$
+For reasons which will become clear in calculus, 'simplifying' a difference quotient means rewriting it in a form where the 'h' in the definition of the difference quotient cancels from the denominator. Once that happens, we consider our work to be done.
+
+> Problem 1.5.2. Find and simplify the difference quotients for the following functions
+
+1. $h^2-2x-4$, real answer $2x+h-1$
+2. $2h$
+3. $\frac{\sqrt{h}}{h}$
+
+---
+
+#### Conjugates in fraction simplification
+Outside resource:
+[How to solve limits by conjugate multiplication](https://www.dummies.com/education/math/calculus/how-to-solve-limits-by-conjugate-multiplication/)
+
+The conjugate of a two-term expression is just the same expression with subtraction switched to addition or vice-versa. However it seems that this doesn't apply to every operation, but only to operations of terms, exluding 'inner' terms, such as $\sqrt{x+y}$, in such a situation it would remain the same. But with $\sqrt{x}+\sqrt{y}$, the $+$ would be reversed to a $-$.
+
+The product of conjugates is always the square of the first thing minus the square of the second thing. For example:
+$$ \frac{(\sqrt{x}-2)}{(x-4)}*\frac{(\sqrt{x}+2}{(x+4)} $$
+$$ \frac{\sqrt{x}^2-2^2}{(x-4)(\sqrt{x}+2)} $$
+
+Since a square root squared is equal to the number in the square root  simplification takes place as follows:
+
+$$ \frac{x-4}{(x-4)(\sqrt{x}+2)} $$
+Cancel out the $(x-4)$ from the numerator and the denominator
+$$ \frac{1}{\sqrt{x}+2} $$
+Why $(x-4)$ is being replaced with a $1$, I do not know.
+
+---
+
+#### Classical applications of function arithmetic
+* Let $x$ be the production level in this example, that is, the number of items produced in a given time period.
+* Let $C(x)$ denote the function that calculates the total cost of producing $x$ items. Where $C(x)$ is the fixed cost and the cost when producing nothing.
+* $\bar{C}(x)$ is the average/mean cost per item, the computation is as follows: $\bar{C}(x)=\frac{C(x)}{x}$.
+* $p$ is the price charged per item.
+* Here $x$ is the dependent variable and $p$ is the independent variable, or using function notation, we have the function $x(p)$.
+* Our next function to consider is $R(x)$, for revenue. It computes the amount of money collected as a result of selling $x$ items.
+* The last function $P(x)$, for profit, is the money earned after all costs are paid. $P(x)=(R-C)(x)=R(x)-C(x)$
+
+> Problem 1.5.3. Let $x$ represent the number of dOpi media players produced and sold in a typical week. Suppose the cost in dollars to produce $x$ dOpis is given by $C(x)=100x+2000$, for $x\geq0$, and the price, in dollars per dOpi, is given by $p(x)=450-15x$ for $0\leq x\leq30$.
+
+1. $2000$ is the cost for maintaining producability of dOpi media players, i.e. paying workers or running factory costs.
+2. $300$ is the average cost per item.
+3. $450$ is the cost for creating no items, and the cost for creating 20 items is $150$.
+4. $x=30$, in this situation it seems that the price charged per item goes down to 0.
+5. $R(x)=450x-15x^2$, $P(x)=115x^4-1550$.
+6. $R(0)=0$, because the way that revenue is driven is with sales, and since none are made no $0$ dollars are made. $P(0)=-2000$ is the profit net for selling $0$ items, money is lost if no sales are made.
+
+$$ 0 = P(x) $$
+$$ 0 = -15x^2+350x-2000 $$
+$$ -2000 = \frac{-15x^2+350}{x}$$
+
+## Exercises
+1. $f(x)=3x+1$, $g(x)=4-x$
+   1. $(f+g)(2)=9$
+   2. $(f-g)(-1)=-7$
+   3. $(g-f)(1)=-1$
+   4. $(fg)(\frac{1}{2})=17\frac{1}{2}$
+   5. $(\frac{f}{g})(0)=0$
+   6. $(\frac{g}{f})(-2)=\frac{6}{-5}$
+2. $f(x)=x^2$, $g(x)=-2x+1$
+   1. $(f+g)(2)=1$
+   2. $(f-g)(-1)=-2$
+   3. $(g-f)(1)=2$
+   4. $(fg)(\frac{1}{2})=\frac{0}{8}$
+   5. $(\frac{f}{g})(0)=\frac{0}{1}$
+   6. $(\frac{g}{f})(-2)=\frac{5}{4}$
+3. $f(x)=x^2-x$, $g(x)=12-x^2$
+   1. $(f+g)(2)=10$
+   2. $(f-g)(-1)=-8$
+   3. $(g-f)(1)=11$
+   4. $(fg)(\frac{1}{2})=\frac{-47}{16}$
+   5. $(\frac{f}{g})(0)=\frac{0}{12}$
+   6. $(\frac{g}{f})(-2)=\frac{4}{3}$
+4. $f(x)=2x^3$, $g(x)=-x^2-2x-3$
+   1. $(f+g)(2)=19$
+   2. $(f-g)(-1)=2$
+   3. $(g-f)(1)=-6$
+   4. $(fg)(\frac{1}{2})=\frac{-1}{2}$
+   5. $(\frac{f}{g})(0)=\frac{0}{-3}$
+   6. $(\frac{g}{f})(-2)=\frac{3}{-16}$
+5. $f(x)=\sqrt{x+3}$, $g(x)=2x-1$
+   1. $(f+g)(2)=\sqrt{5}+3$
+   2. $(f-g)(-1)=\sqrt{2}+2$
+   3. $(g-f)(1)=-1$
+   4. $(fg)(\frac{1}{2})=0$
+   5. $(\frac{f}{g})(0)=\frac{\sqrt{3}}{-1}$
+   6. $(\frac{g}{f})(-2)=\frac{-5}{1}$
+6. $f(x)=\sqrt{4-x}$, $g(x)=\sqrt{x+2}$
+   1. $(f+g)(2)=\sqrt{2}+2, 6?$
+   2. $(f-g)(-1)=\sqrt{5}-1$
+   3. $(g-f)(1)=0$
+   4. $(fg)(\frac{1}{2})=\frac{7}{4}\sqrt{3}$
+   5. $(\frac{f}{g})(0)=\frac{2}{\sqrt{2}}$
+   6. $(\frac{g}{f})(-2)=\frac{0}{\sqrt{6}}$
+7. $f(x)=2x$, $g(x)=\frac{1}{2x+1}$
+   1. $(f+g)(2)=\frac{21}{20}$
+   2. $(f-g)(-1)=-3$
+   3. $(g-f)(1)=\frac{-5}{3}$
+   4. $(fg)(\frac{1}{2})=\frac{1}{2}$
+   5. $(\frac{f}{g})(0)=\frac{0}{1}$
+   6. $(\frac{g}{f})(-2)=\frac{\frac{1}{-3}}{-4}$
+8. $f(x)=x^2$, $g(x)=\frac{3}{2x-3}$
+   1. $(f+g)(2)=7$
+   2. $(f-g)(-1)=\frac{2}{5}$
+   3. $(g-f)(1)=\frac{2}{-1}$
+   4. $(fg)(\frac{1}{2})=\frac{1}{4}\frac{3}{\frac{-11}{4}}$
+   5. $(\frac{f}{g})(0)\frac{0}{\frac{-3}{3}}$
+   6. $(\frac{g}{f})(-2)=\frac{\frac{-3}{5}}{4}$
+9. $f(x)=x^2$, $g(x)=\frac{1}{x^2}$
+   1. $(f+g)(2)=\frac{17}{4}$
+   2. $(f-g)(-1)=2$
+   3. $(g-f)(1)=2$
+   4. $(fg)(\frac{1}{2})=1$
+   5. $(\frac{f}{g})(0)=\emptyset$
+   6. $(\frac{g}{f})(-2)=\frac{\frac{1}{4}}{2}$
+10. $f(x)=x^2+1$, $g(x)=\frac{1}{x^2+1}$
+    1. $(f+g)(2)=\frac{26}{5}$
+    2. $(f-g)(-1)=\frac{3}{2}$
+    3. $(g-f)(1)=\frac{-3}{2}$
+    4. $(fg)(\frac{1}{2})=1$
+    5. $(\frac{f}{g})(0)=1$
+    6. $(\frac{g}{f})(-2)=\frac{1}{4}$
+11. $f(x)=2x+1$, $g(x)=x-2$
+    1. $(f+g)(x)=(-\infty,\infty)$
+      * $(f+g)(1)=2$
+    2. $(f-g)(x)=(-\infty,\infty)$
+      * $(f-g)(1)=4$
+    3. $fg(x)=(-\infty,\infty)$
+      * $(fg)(1)=3$
+    4. $(\frac{f}{g})(x)=(-\infty,0)\cup(0,2)\cup(2,\infty)$
+      * $(\frac{f}{g})(1)=\frac{3}{-1}$
+12. $f(x)=1-4x$, $g(x)=2x-1$
+    1. $(f+g)(x)=(-\infty,\infty)$
+      * $(f+g)(1)=-2$
+    2. $(f-g)(x)=(-\infty,\infty)$
+      * $(f-g)(1)=-4$
+    3. $fg(x)=(-\infty,\infty)$
+      * $(fg)(1)=-3$
+    4. $(\frac{f}{g})(x)=(-\infty,\frac{1}{2})\cup(\frac{1}{2},\infty)$
+      * $(\frac{f}{g})(1)=\frac{-3}{1}$
+13. $f(x)=x^2$, $g(x)=3x-1$
+    1. $(f+g)(x)=(-\infty,\infty)$
+      * $(f+g)(1)=3$
+    2. $(f-g)(x)=(-\infty,\infty)$
+      * $(f-g)(1)=-1$
+    3. $fg(x)=(-\infty,\infty)$
+      * $(fg)(1)=2$
+    4. $(\frac{f}{g})(x)=(-\infty,\frac{1}{3})\cup(\frac{1}{3},\infty)$
+      * $(\frac{f}{g})(1)=\frac{1}{2}$
+14. $f(x)=x^2-x$, $g(x)=7x$
+    1. $(f+g)(x)=(-\infty,\infty)$
+      * $(f+g)(1)=7$
+    2. $(f-g)(x)=(-\infty,\infty)$
+      * $(f-g)(1)=-7$
+    3. $fg(x)=(-\infty,\infty)$
+      * $(fg)(1)=0$
+    4. $(\frac{f}{g})(x)=(-\infty,0)\cup(0,\infty)$
+      * $(\frac{f}{g})(1)=\frac{0}{7}$
+15. $f(x)=x^2-4$, $g(x)=3x+6$
+    1. $(f+g)(x)=(-\infty,\infty)$
+      * $(f+g)(1)=6$
+    2. $(f-g)(x)=(-\infty,\infty)$
+      * $(f-g)(1)=-12$
+    3. $fg(x)=(-\infty,\infty)$
+      * $(fg)(1)=-27$
+    4. $(\frac{f}{g})(x)=(-\infty,-2)\cup(-2,\infty)$
+      * $(\frac{f}{g})(1)=\frac{-3}{9}$
+16. $f(x)=-x^2+x+6$, $g(x)=x^2-9$
+    1. $(f+g)(x)=(-\infty,\infty)$
+      * $(f+g)(1)=0$
+    2. $(f-g)(x)=(-\infty,\infty)$
+      * $(f-g)(1)=16$
+    3. $fg(x)=(-\infty,\infty)$
+      * $(fg)(1)=-64$
+    4. $(\frac{f}{g})(x)=(-\infty,3)\cup(3,\infty)$
+      * $(\frac{f}{g})(1)=\frac{8}{-8}$
+17. $f(x)=\frac{x}{2}$, $g(x)=\frac{2}{x}$
+    1. $(f+g)(x)=(-\infty,0)\cup(0,\infty)$
+      * $(f+g)(1)=\frac{5}{4}$
+    2. $(f-g)(x)=(-\infty,0)\cup(0,\infty)$
+      * $(f-g)(1)=\frac{-3}{2}$
+    3. $fg(x)=(-\infty,0)\cup(0,\infty)$
+      * $(fg)(1)=1$
+    4. $(\frac{f}{g})(x)=(-\infty,0)\cup(0,\infty)$
+      * $(\frac{f}{g})(1)=\frac{1}{4}$
+18. $f(x)=x-1$, $g(x)=\frac{1}{x-1}$
+    1. $(f+g)(x)=(-\infty,1)\cup(1,\infty)$
+      * $(f+g)(2)=2$
+    2. $(f-g)(x)=(-\infty,1)\cup(1,\infty)$
+      * $(f-g)(2)=0$
+    3. $fg(x)=(-\infty,1)\cup(1,\infty)$
+      * $(fg)(2)=1$
+    4. $(\frac{f}{g})(x)=(-\infty,1)\cup(1,\infty)$
+      * $(\frac{f}{g})(2)=1$
+19. $f(x)=x$, $g(x)=\sqrt{x+1}$
+    1. $(f+g)(x)=[-1,\infty)$
+      * $(f+g)(1)=1+\sqrt{2}$
+    2. $(f-g)(x)=[-1,\infty)$
+      * $(f-g)(1)=1-\sqrt{2}$
+    3. $fg(x)=[-1,\infty)$
+      * $(fg)(1)=\sqrt{2}$
+    4. $(\frac{f}{g})(x)=(-1,\infty)$
+      * $(\frac{f}{g})(1)=\frac{1}{\sqrt{2}}$
+20. $f(x)=\sqrt{x-5}$, $g(x)=\sqrt{x-5}$
+    1. $(f+g)(x)=(5,\infty)$
+      * $(f+g)(1)=4$
+    2. $(f-g)(x)=(5,\infty)$
+      * $(f-g)(1)=0$
+    3. $fg(x)=(5,\infty)$
+      * $(fg)(1)=4$
+    4. $(\frac{f}{g})(x)=(5,\infty)$
+      * $(\frac{f}{g})(1)=1$
+Find and simplify the quotient $\frac{f(x+h)-f(x)}{h}$.
+21. 

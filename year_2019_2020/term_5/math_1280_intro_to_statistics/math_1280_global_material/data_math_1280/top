@@ -1,0 +1,174 @@
+Help files with alias or concept or title matching ‘rel’ using regular
+expression matching:
+
+
+base::<                 Relational Operators
+base::expression        Unevaluated Expressions
+  Concepts: Computations Related to Plotting
+base::gctorture         Torture Garbage Collector
+  Aliases: R_GCTORTURE_INHIBIT_RELEASE
+base::jitter            'Jitter' (Add Noise) to Numbers
+  Concepts: Computations Related to Plotting
+base::load              Reload Saved Datasets
+base::pretty            Pretty Breakpoints
+  Concepts: Computations Related to Plotting
+boot::corr              Correlation Coefficient
+boot::envelope          Confidence Envelopes for Curves
+  Concepts: Computations Related to Plotting
+boot::glm.diag          Generalized Linear Model Diagnostics
+  Concepts: Computations Related to Plotting
+boot::glm.diag.plots    Diagnostics plots for generalized linear models
+  Concepts: Computations Related to Plotting
+boot::saddle.distn      Saddlepoint Distribution Approximations for
+                        Bootstrap Statistics
+  Concepts: Computations Related to Plotting
+boot::wool              Australian Relative Wool Prices
+cluster::ellipsoidhull
+                        Compute the Ellipsoid Hull or Spanning
+                        Ellipsoid of a Point Set
+  Concepts: Computations Related to Plotting
+cluster::predict.ellipsoid
+                        Predict Method for Ellipsoid Objects
+  Concepts: Computations Related to Plotting
+graphics::axTicks       Compute Axis Tickmark Locations
+  Concepts: Computations Related to Plotting
+graphics::clip          Set Clipping Region
+  Concepts: Computations Related to Plotting
+graphics::grconvertX    Convert between Graphics Coordinate Systems
+  Concepts: Computations Related to Plotting
+graphics::hist          Histograms
+  Concepts: Computations Related to Plotting
+graphics::hist.POSIXt   Histogram of a Date or Date-Time Object
+  Concepts: Computations Related to Plotting
+graphics::layout        Specifying Complex Plot Arrangements
+  Concepts: Computations Related to Plotting
+graphics::panel.smooth
+                        Simple Panel Plot
+  Concepts: Computations Related to Plotting
+graphics::par           Set or Query Graphical Parameters
+  Concepts: Computations Related to Plotting
+graphics::screen        Creating and Controlling Multiple Screens on a
+                        Single Device
+  Concepts: Computations Related to Plotting
+graphics::strwidth      Plotting Dimensions of Character Strings and
+                        Math Expressions
+  Concepts: Computations Related to Plotting
+graphics::xinch         Graphical Units
+  Concepts: Computations Related to Plotting
+grDevices::axisTicks    Compute Pretty Axis Tick Scales
+  Concepts: Computations Related to Plotting
+grDevices::boxplot.stats
+                        Box Plot Statistics
+  Concepts: Computations Related to Plotting
+grDevices::cm           Unit Transformation
+  Concepts: Computations Related to Plotting
+grDevices::col2rgb      Color to RGB Conversion
+  Concepts: Computations Related to Plotting
+grDevices::colors       Color Names
+  Concepts: Computations Related to Plotting
+grDevices::contourLines
+                        Calculate Contour Lines
+  Concepts: Computations Related to Plotting
+grDevices::densCols     Colors for Smooth Density Plots
+  Concepts: Computations Related to Plotting
+grDevices::dev.capabilities
+                        Query Capabilities of the Current Graphics
+                        Device
+  Concepts: Computations Related to Plotting
+grDevices::dev.capture
+                        Capture device output as a raster image
+  Concepts: Computations Related to Plotting
+grDevices::dev.hold     Hold or Flush Output on an On-Screen Graphics
+                        Device.
+  Concepts: Computations Related to Plotting
+grDevices::dev.size     Find Size of Device Surface
+  Concepts: Computations Related to Plotting
+grDevices::devAskNewPage
+                        Prompt before New Page
+  Concepts: Computations Related to Plotting
+grDevices::extendrange
+                        Extend a Numerical Range by a Small Percentage
+  Concepts: Computations Related to Plotting
+grDevices::hcl          HCL Color Specification
+  Concepts: Computations Related to Plotting
+grDevices::hsv          HSV Color Specification
+  Concepts: Computations Related to Plotting
+grDevices::is.raster    Create a Raster Object
+  Concepts: Computations Related to Plotting
+grDevices::n2mfrow      Compute Default mfrow From Number of Plots
+  Concepts: Computations Related to Plotting
+grDevices::pretty.Date
+                        Pretty Breakpoints for Date-Time Classes
+  Concepts: Computations Related to Plotting
+grDevices::rainbow      Color Palettes
+  Concepts: Computations Related to Plotting
+grDevices::rgb2hsv      RGB to HSV Conversion
+  Concepts: Computations Related to Plotting
+grDevices::trans3d      3D to 2D Transformation for Perspective Plots
+  Concepts: Computations Related to Plotting
+grDevices::xy.coords    Extracting Plotting Structures
+  Concepts: Computations Related to Plotting
+grDevices::xyTable      Multiplicities of (x,y) Points, e.g., for a
+                        Sunflower Plot
+  Concepts: Computations Related to Plotting
+grDevices::xyz.coords   Extracting Plotting Structures
+  Concepts: Computations Related to Plotting
+grid::absolute.size     Absolute Size of a Grob
+  Concepts: Computations Related to Plotting
+grid::arrow             Describe arrows to add to a line.
+  Concepts: Computations Related to Plotting
+grid::calcStringMetric
+                        Calculate Metric Information for Text
+  Concepts: Computations Related to Plotting
+grid::convertUnit       Convert Between Different grid Coordinate
+                        Systems
+  Concepts: Computations Related to Plotting
+grid::current.viewport
+                        Get the Current Grid Viewport (Tree)
+  Concepts: Computations Related to Plotting
+grid::dataViewport      Create a Viewport with Scales based on Data
+  Concepts: Computations Related to Plotting
+grid::depth             Determine the number of levels in an object.
+  Concepts: Computations Related to Plotting
+grid::drawDetails       Customising grid Drawing
+  Concepts: Computations Related to Plotting
+grid::editDetails       Customising grid Editing
+  Concepts: Computations Related to Plotting
+grid::explode           Explode a path into its components.
+  Concepts: Computations Related to Plotting
+grid::gEdit             Create and Apply Edit Objects
+  Concepts: Computations Related to Plotting
+grid::getNames          List the names of grobs on the display list
+  Concepts: Computations Related to Plotting
+grid::gpar              Handling Grid Graphical Parameters
+  Concepts: Computations Related to Plotting
+grid::gPath             Concatenate Grob Names
+  Concepts: Computations Related to Plotting
+grid::Grid              Grid Graphics
+  Concepts: Computations Related to Plotting
+grid::grid.add          Add a Grid Graphical Object
+  Concepts: Computations Related to Plotting
+grid::grid.bezier       Draw a Bezier Curve
+  Concepts: Computations Related to Plotting
+grid::grid.cap          Capture a raster image
+  Concepts: Computations Related to Plotting
+grid::grid.circle       Draw a Circle
+  Concepts: Computations Related to Plotting
+grid::grid.clip         Set the Clipping Region
+  Concepts: Computations Related to Plotting
+grid::grid.copy         Make a Copy of a Grid Graphical Object
+  Concepts: Computations Related to Plotting
+grid::grid.curve        Draw a Curve Between Locations
+  Concepts: Computations Related to Plotting
+grid::grid.delay        Encapsulate calculations and generating a grob
+  Concepts: Computations Related to Plotting
+grid::grid.display.list
+                        Control the Grid Display List
+  Concepts: Computations Related to Plotting
+grid::grid.DLapply      Modify the Grid Display List
+  Concepts: Computations Related to Plotting
+grid::grid.draw         Draw a grid grob
+  Concepts: Computations Related to Plotting
+grid::grid.edit         Edit the Description of a Grid Graphical Object
+  Concepts: Computations Related to Plotting
+grid::grid.force        Force a grob into its compone

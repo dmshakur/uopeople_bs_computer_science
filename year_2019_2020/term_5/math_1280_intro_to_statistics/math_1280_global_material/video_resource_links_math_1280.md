@@ -24,3 +24,30 @@
 [Importing, checking and working with data in R](https://www.youtube.com/watch?v=U4-RnTW5dfw&feature=emb_logo)
 
 [Working with data in R](https://www.youtube.com/watch?v=1BcGnHwUT6k&feature=emb_logo)
+
+## Unit 3:
+[Bar chart, pie chart, frequency tables](https://www.youtube.com/watch?v=Rx8wSEDq5Hs)
+
+[Bar charts and pie charts in R](https://www.youtube.com/watch?v=Eph_Y0BmHU0)
+
+[Histograms and density plots for numeric variables](https://www.youtube.com/watch?v=p-VOptZ0E5Y)
+
+[Histograms in R](https://www.youtube.com/watch?v=Hj1pgap4UOY&feature=emb_logo)
+
+[Boxplots in statistics](https://www.youtube.com/watch?v=9AKLd5FHzfI&feature=emb_logo)
+
+[Boxplots and grouped boxplots in R](https://www.youtube.com/watch?v=U64yNvlhv9I&feature=emb_logo)
+
+[Plots for two variables](https://www.youtube.com/watch?v=sbsY6neZ07g&feature=emb_logo)
+
+[Describing distributions](https://www.youtube.com/watch?v=2Y2l9QJCe6M&feature=emb_logo)
+
+[Mean, median, and mode in statistics](https://www.youtube.com/watch?v=2pyq0TJmpzs&feature=emb_logo)
+
+[Percentiles, quantiles, and quartiles in statistics](https://www.youtube.com/watch?v=Ky7QeVgv-BA&feature=emb_logo)
+
+[Standard deviation & degrees of freedom explained](https://www.youtube.com/watch?v=nlm9gfso4mw&feature=emb_logo)
+
+[Stem and leaf plots in R](https://www.youtube.com/watch?v=NpBRo0tRNeY&feature=emb_logo)
+
+[Scatterplots in R](https://www.youtube.com/watch?v=FEAS3akVxD8&feature=emb_logo)

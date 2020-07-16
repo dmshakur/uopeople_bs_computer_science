@@ -51,3 +51,6 @@
 [Stem and leaf plots in R](https://www.youtube.com/watch?v=NpBRo0tRNeY&feature=emb_logo)
 
 [Scatterplots in R](https://www.youtube.com/watch?v=FEAS3akVxD8&feature=emb_logo)
+
+## Unit 4:
+[Sample and population in statistics](https://www.youtube.com/watch?v=DOnucdP7LNU&feature=emb_logo)

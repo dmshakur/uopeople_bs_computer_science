@@ -1,0 +1,7 @@
+
+# Discussion Unit 4 MATH 1280
+
+For this exercise, I will be observing someone's sleep, and I will measure the length of time one spends sleeping. The sample space for this will vary from person to person, some people get very little sleep, and others sleep for the usual 8 hours per day. For this exercise I will use my own sleep data, that my watch tracks, and say that the sample space is from 3:55 to 9:43, both being lengths of time. If you were to put my sleep time data into a histogram I think that you would find it has a normal distribution (this is an educated guess), where the median would be around 7 hours, thus having the highest probability. Then there would be outliers such as the previously mentioned times, 3:55 and 9:43. These values would have a much smaller probability of occurring on any given night. Probability would likely also follow a normal distribution as well and have the greatest near the center and the smallest out on the tails. 
+
+To the person saying that they know what the outcome of an individual observation will be:
+Nothing is certain, any probabilistic model where more than one observation is present, there is always going to be a chance of being incorrect. So long as you are selecting fewer than \( N \) elements and \( N \) is greater than 1.

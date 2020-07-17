@@ -2,35 +2,45 @@
 # Learning Journal Unit 3 MATH 1280
 
 ## Part 1
-#### Date 07/02/20
-Finishing touch on Pyspark recommender system.
-#### Date 07/03/20
-Ran 6 miles.
-#### Date 07/04/20
-Worked on creating a logger for an A.I. course I'm taking.
-Ran about 15 or 16 miles.
-#### Date 07/05/20
-Applied to jobs.
-Was contacted by a company for a job that requires accounting skills.
-Began course, Fundamentals of Accounting, finished week 1.
-#### Date 07/06/20
-Made notes for chapter 3 of the MATH 1280 text book.
-#### Date 07/07/20
-Worked on financial accounting class.
-#### Date 07/08/20
-Ran 14 miles. Finished unit 2 assessments for MATH 1280.
-#### Date 07/09/20
-Finished learning journal for MATH 1280.
+#### 07/09/2020 - 07/12/2020
+Laptop broke so I was 'technologically disabled for a while.
+Spent the time listening to the audio limitless and taking notes on my phone, all other free time was spent job hunting.
+#### 07/13/2020
+Late afternoon, parts arrive to fix laptop, laptop fixed. Proceeded with taking notes on reading material for MATH 1280.
+Read and took notes on Python for DevOps.
+#### 07/14/2020
+Read and took notes on Python for DevOps.
+Finished notes and started on the discussion posts.
+#### 07/15/2020
+Finished discussion posts, started and finished assignment.
+Attempted self-quiz only to find that a table vital to solving the last few questions wouldn't render any values or probabilities.
+#### 07/16/2020
+Read Python for DevOps.
+Finished learning journal.
 
 ## Part 2
 #### A:
-The length function is something that I've been familiar with for years. Generally when we think of the mathematical term $n$, we are talking about the number of items in a vector or some other kind of list/array. Basically length is just that, $n$. Although, in a lot of programming languages getting the length of something like a list of lists will not necessarily get you the amount of elements inside, it will only get you the amount of elements that are in the first "layer", or the most immediate items. For example if you had a vector with a vector inside it, if you got the length of the outer vector, you would get $n=1$, regardless of how many elements are in the inner vector.
+The symbol $\bar{x}$ represents the sample mean.
 
 #### B:
-According to Statistical Inference (p. 38, 2011) variance is 'the average of the squares of the deviations'. I believe that the reason why we square these value(s) is so that we can get a non-negative integer, because when we have a non-negative integer we can more easily compare it to results from different data sources if we want. There are other statistical measurements that utilize such an approach as well.
+The symbol $\mu$ represents the population mean.
 
-###### References:
-Yakir, B. (2011). Statistical Inference. The Hebrew University.
+#### C:
+There is no difference in calculation with $\bar{x}$ and $\mu$, there are like clothes, they only change on the surface not necessarily what we do.
 
 ## Part 3
-I don't think that I will have too much trouble putting aside extra time for the difficulty increase. Up til now, I've been able to finish all my work within a few hours (4 maybe, give or take 2 hours at the most), where taking notes on our text book takes up the most time. 
+#### A:
+```R
+> x
+[1] 14 74 24 65 14 75 99
+> prob
+[1] 0.03835616 0.20273973 0.06575342 0.17808219 0.03835616 0.20547945 0.27123288
+> mean <- x * prob
+> mean
+[1]  0.5369863 15.0027397  1.5780822 11.5753425  0.5369863 15.4109589 26.8520548
+> sum(mean)
+[1] 71.49315
+> 
+```
+#### B:
+Here x is the frequency and prob is the probability. The mean is simple to compute, just take those two values, x and prob, multiply them together and take the sum of those values. This operation is equivalent to the following equation: $\textrm{mean}=\sum_{i=1}^nxP(x)$.

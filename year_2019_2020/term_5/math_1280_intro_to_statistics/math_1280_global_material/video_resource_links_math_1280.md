@@ -54,3 +54,8 @@
 
 ## Unit 4:
 [Sample and population in statistics](https://www.youtube.com/watch?v=DOnucdP7LNU&feature=emb_logo)
+
+## Unit 5:
+[Binomial distribution](https://www.youtube.com/watch?v=iG995W0XefU&feature=emb_logo)
+
+[Poisson distribution](https://www.youtube.com/watch?v=778WK1Pf8eI&feature=emb_logo)

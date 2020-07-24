@@ -1,5 +1,5 @@
 
-# Learning Journal Unit 3 MATH 1280
+# Learning Journal Unit 4 MATH 1280
 
 ## Part 1
 #### 07/09/2020 - 07/12/2020

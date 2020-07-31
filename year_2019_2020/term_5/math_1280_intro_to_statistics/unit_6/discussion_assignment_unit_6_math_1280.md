@@ -1,0 +1,4 @@
+
+# Discussion Assignment Unit 6 MATH 1280
+
+I know that in past courses related to data science the instructors have talked about investigating your data set to ensure that it is evenly dispersed. The assumption is that if your data has a normal distribution then it is fairly representative of the population you are sampling from. Another time you might want to use the normal distribution is if you were to show people you work with a presentation showing statistical information related to your companies customers, and you wanted to show that certain attributes of the customers followed a certain distribution (normal). But if researchers were faced with a problem where the data had an obvious skew over the sample space then I think they would be better suited to use a different distribution.

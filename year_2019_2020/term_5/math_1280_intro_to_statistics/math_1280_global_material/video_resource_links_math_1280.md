@@ -59,3 +59,10 @@
 [Binomial distribution](https://www.youtube.com/watch?v=iG995W0XefU&feature=emb_logo)
 
 [Poisson distribution](https://www.youtube.com/watch?v=778WK1Pf8eI&feature=emb_logo)
+
+## Unit 6:
+
+## Unit 7:
+[Central Limit Theorem](https://www.youtube.com/watch?v=horm4zWU-vA&feature=emb_logo)
+
+[Standard error of the mean](https://www.youtube.com/watch?v=-Xz89dB_Hco&feature=emb_logo)
